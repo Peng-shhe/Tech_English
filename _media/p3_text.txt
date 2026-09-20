@@ -1,0 +1,173 @@
+
+====================================================================================================
+### p3 SLIDE 1
+====================================================================================================
+
+-- shape0 '标题 1' pos=[1.67, 0.75, 10.0, 2.33]
+  P0 sz=set() b=False | 第三部分：Data Processing & Analysis
+
+-- shape1 '副标题 2' pos=[1.67, 3.36, 10.52, 2.92]
+  P0 sz=set() b=True | 参考文献
+  P1 sz=set() b=False | Comparison of two atmospheric correction methods for the classification of spaceborne urban hyperspectral data depending on the spatial resolution. International Journal of Remote Sensing, 2017, 39 (5), pp.1593-1614. ⟨10.1080/01431161.2017.1410247⟩. ⟨hal-01888019⟩遥感应用光谱分类或识别大气校正
+  P2 sz=set() b=False | Gautam et al. EPJ Techniques and Instrumentation (2015) 2:8 DOI 10.1140/epjti/s40485-015-0018-6拉曼光谱和红外光谱处理
+  P3 sz=set() b=False | Initial Analysis of Spectral Smile Calibration of Hyperspectral Imager Suite (HISUI) Using Atmospheric Absorption Bands IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, VOL. 60, 2022激光诱导击穿光谱（LIBS）成像,更为稳健和高效
+
+====================================================================================================
+### p3 SLIDE 2
+====================================================================================================
+
+-- shape0 '内容占位符 2' pos=[0.92, 0.69, 11.5, 6.06]
+  P0 sz=set() b=False | 中文                       English                                             含义
+  P1 sz=set() b=False | 辐射定标   Radiometric Calibration将传感器原始DN值转换为辐射亮度/反射率的过程
+  P2 sz=set() b=False | 大气校正Atmospheric Correction消除大气散射、吸收对地表反射率的影响
+  P3 sz=set() b=False | 光谱响应函数Spectral Response Function (SRF)传感器对不同波长的响应曲线
+  P4 sz=set() b=False | 半高宽Full Width at Half Maximum (FWHM)光谱响应峰半高处的宽度，表征光谱分辨率
+  P5 sz=set() b=False | 光谱微笑效应Spectral Smile推扫式传感器跨轨方向中心波长偏移现象
+  P6 sz=set() b=False | 基线校正Baseline Correction去除荧光/散射造成的低频背景漂移
+  P7 sz=set() b=False | 噪声等效辐亮度Noise Equivalent Radiance (NER)表征传感器噪声水平
+  P8 sz=set() b=False | 几何校正Geometric Correction将图像像素与地理坐标配准
+
+====================================================================================================
+### p3 SLIDE 3
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=True | 流程总览
+  P1 sz=set() b=False | 先看这张流程图，三步：
+  P2 sz=set() b=False | Step 1 · Preprocessing，预处理
+  P3 sz=set() b=False | Step 2 · Dimensionality Reduction，降维
+  P4 sz=set() b=False | Step 3 · Classification & Recognition，分类与识别
+
+====================================================================================================
+### p3 SLIDE 4
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=True | 一、预处理
+  P1 sz=set() b=True | 定标类
+  P2 sz=set() b=False | 这一页有四个高频词：
+  P3 sz=set() b=False | 1. Radiometric Calibration（辐射定标）：把仪器记到的数字 DN（digital number）换算成真实的辐射亮度或反射率。没有这一步，数据只是一堆数字。
+  P4 sz=set() b=False | 2. Spectral Response Function（SRF，光谱响应函数）：传感器对每个波长“有多敏感”，是一条随波长变化的曲线。
+  P5 sz=set() b=False | 3. FWHM（Full Width at Half Maximum，半高宽）：峰高一半处的宽度。它越小，光谱分辨率越高。
+  P6 sz=set() b=False | 4. Spectral Smile（光谱微笑效应）：中间和两边的波长对不齐，曲线像一张微笑的嘴。
+  P7 sz=set() b=False |  “The path of the light from the lamps is slightly different from the path of light through the full optical system… the smile correction table determined based on the former does not enable sufficient spectral smile correction for actual observation images.”
+  P8 sz=set() b=False |  “…absorption bands centered at λ = 765 nm … CO2 … 2010 nm … 2060 nm.”
+  P9 sz=set() b=False |  
+
+====================================================================================================
+### p3 SLIDE 5
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=True | 大气校正
+  P1 sz=set() b=False | 1. Atmospheric Correction（大气校正）：光从太空到地面会被大气散射和吸收，这一步把干扰减掉，还原地表真实反射率。
+  P2 sz=set() b=False | 2. MODTRAN：常用的大气辐射传输模型，物理法大气校正靠它算大气参数。
+  P3 sz=set() b=False | 论文对比两条路线：物理模型法（COCHISE）准，但假设地面是平的；经验阴影校正法能识别阴影，但把像素当成“要么全亮、要么全暗”。
+  P4 sz=set() b=False | 结论词：Spatial Resolution（空间分辨率）决定哪种方法更好。
+  P5 sz=set() b=False | “…the choice depends on the spatial resolution of the processed data set… with the lower spatial resolution where COCHISE can be 10% more accurate than the empirical method.”
+  P6 sz=set() b=False |  
+
+====================================================================================================
+### p3 SLIDE 6
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=True | 拉曼 vs 红外
+  P1 sz=set() b=False | Fluorescence Baseline（荧光基线）：拉曼信号弱，被荧光背景盖住，要先做 Baseline Correction（基线校正）。
+  P2 sz=set() b=False | Cosmic Ray Spike（宇宙射线尖峰）：CCD 上突然冒出的假亮点，要先去掉。
+  P3 sz=set() b=False | ALS（Asymmetric Least Squares）：非对称最小二乘法，常用的拟合基线算法。
+  P4 sz=set() b=False | Mie Scattering（米氏散射）：细胞大小和红外波长差不多，会把光谱形状扭歪。
+  P5 sz=set() b=False | EMSC（Extended Multiplicative Scatter Correction，扩展乘性散射校正）：红外里最常用的预处理。
+  P6 sz=set() b=False | 【文献出处】Gautam 2015。拉曼的荧光基线、宇宙射线尖峰、ALS、SG 平滑、SNV；FTIR 的 Mie 散射、MSC/EMSC，。
+  P7 sz=set() b=False |  “…the strong intrinsic fluorescence from many biomolecules. The fluorescence background is often many times more intense than the weak Raman signals.”
+  P8 sz=set() b=False |  “…mid-infrared spectrum… is hampered by Mie scattering… Extended Multiplicative Scatter Correction (EMSC) can be employed for this purpose.”
+  P9 sz=set() b=False |  
+
+====================================================================================================
+### p3 SLIDE 7
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=True | 二、 降维：PCA
+  P1 sz=set() b=False | 进入第二大步 Dimensionality Reduction（降维）。
+  P2 sz=set() b=False | Hyperspectral Cube（高光谱数据立方体）：两个空间维度 + 一个光谱维度，一景图有几百个波段。
+  P3 sz=set() b=False | 为什么降维？因为波段之间高度相关。
+  P4 sz=set() b=False | PCA（Principal Component Analysis，主成分分析）：把几百个波段“拧成”几个 PC（主成分）。
+  P5 sz=set() b=False | Eigenvalue / Eigenvector（特征值 / 特征向量）：PCA 的数学基础，协方差矩阵分解得到。
+  P6 sz=set() b=False | Score Plot（得分图）：看样本分成几堆；Loading Plot（载荷图）：看哪些波长在起作用。
+  P7 sz=set() b=False | 【文献出处】 Gautam 2015。PCA 原理、协方差矩阵特征分解、Score/Loading plot、碎石图选 PC 数。
+  P8 sz=set() b=False | “Eigenvectors of the covariance matrix of the data…” 以及 Fig.1 说明：“Scatter Plots of score values of different Principal Components (PCs)…” 用于看分组与离群点。
+  P9 sz=set() b=False |  
+
+====================================================================================================
+### p3 SLIDE 8
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=True |  PCA vs MNF
+  P1 sz=set() b=False | 重点对比两个词：
+  P2 sz=set() b=False | PCA 按 Variance（方差）大小排。
+  P3 sz=set() b=False | MNF（Minimum Noise Fraction，最小噪声分离）：先把噪声“白化”，再做 PCA，按 Signal-to-Noise Ratio（SNR，信噪比）排。
+  P4 sz=set() b=False | 一句话：PCA 看方差大不大，MNF 看信噪比高不高。高光谱里 MNF 用得更多。
+  P5 sz=set() b=False | 【文献出处】Gautam 2015。PCA 按方差排序的局限、MNF 按 SNR 排序与噪声分离能力
+  P6 sz=set() b=False | PCA 最大化方差但不区分信号与噪声；MNF 先做噪声白化再分解，使高信噪比成分排在前面。
+
+====================================================================================================
+### p3 SLIDE 9
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=True | 三、分类：
+  P1 sz=set() b=False | 重点记一个词：
+  P2 sz=set() b=False | SAM（Spectral Angle Mapper，光谱角度匹配）：把每条光谱看成一条向量，比较两条向量的夹角，夹角越小越像。
+  P3 sz=set() b=False | 关键：它只看形状，不看亮度。阴影像素虽然整体变暗，但光谱形状没变，照样能和光照下的同类对上号。
+  P4 sz=set() b=False | 这就是 Sun-Shadow Strategy（光照-阴影分步策略）：先用光照像元分类，再用 SAM 去认阴影像元。
+  P5 sz=set() b=False | 【文献出处】 Roussel 2017。光照-阴影分步策略 SS-KM/SS-SVM、用 SAM 匹配阴影像元、训练集只有光照像元（SGT）的真实场景。
+  P6 sz=set() b=False |  “…a Spectral Angle Mapper (SAM) classification has been chosen for its ability to focus on the shape of spectra, which remains globally similar for a pair of pixels associated to the same material, even if one is located in a sunlit area and the other in a shadow area.”
+  P7 sz=set() b=False |  
+
+====================================================================================================
+### p3 SLIDE 10
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=True | 验证：
+  P1 sz=set() b=False | 最后一组词是模型验证
+  P2 sz=set() b=False | Cross-Validation（交叉验证），常用 K-fold（K 折交叉验证）。
+  P3 sz=set() b=False | Confusion Matrix（混淆矩阵）：TP 真阳性、TN 真阴性、FP 假阳性、FN 假阴性；由此算出 Sensitivity（灵敏度）、Specificity（特异度）、Overall Accuracy（总精度）。
+  P4 sz=set() b=False | ROC Curve（ROC 曲线）和 AUC（曲线下面积）。
+  P5 sz=set() b=False | Overfitting（过拟合）
+  P6 sz=set() b=False | 【文献出处】Gautam 2015。交叉验证、混淆矩阵、灵敏度/特异度、ROC-AUC、阴性对照防止伪相关
+
+====================================================================================================
+### p3 SLIDE 11
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | 1
+  P1 sz=set() b=False | However, multispectral imagery is limited regarding spectral analysis. Its low spectral resolution does not allow the discrimination among the large variety of urban materials. Hyperspectral imagery, which is characterized by a very high spectral resolution and whose spatial resolution tends to improve (Briottet et al. 2011), has proved to be a promising tool to overcome this matter.
+  P2 sz=set() b=False | One of the keypoints to achieve these applications is the atmospheric correction phase which aims to retrieve, from at sensor radiance, the reflectance associated to the targeted surface, which is by nature independent of the irradiance conditions on the one hand and of the environment topography on the other hand. Different correction methods exist. ATREM (Goetz et al. 1997) for ‘Atmospheric REMoval pro gram’ and ACORN (Miller 2002) for ‘Atmosphere CORrection Now’ assume a flat homogeneous ground hypothesis with a Lambertian surface.
+
+====================================================================================================
+### p3 SLIDE 12
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | 2
+  P1 sz=set() b=False | Principal component analysis (PCA) PCA is an unsupervised data transformation procedure of complex data sets. PCA is used for projecting a higher dimensional data matrix “X” onto a low component sub space. It reduces a set of variables into a smaller set of orthogonal, and therefore inde pendent, principal components (PCs) in the direction of maximal variation i.e. it reduces the dimensionality and retains the most significant information for further ana lysis.
+
+====================================================================================================
+### p3 SLIDE 13
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | 3 
+  P1 sz=set() b=False | Hyperspectral data can be used to extract various informa tion from discrete absorption and reflection features of a target surface or atmosphere. Thus, HISUI data are expected to be useful in various fields, such as natural resources, agriculture, forestry, environmental monitoring, and Earth science [1]. For such applications, both an accurate spectral calibration and a radiometric calibration are necessary for the reliability of the information extracted from hyperspectral data (see, e.g., [2]–[4]). In particular, for push-broom-type sensors, it is important to evaluate and calibrate the spectral smile, which is a phenomenon showing a cross-track dependence in a devia tion from the original wavelength assignment caused by optical distortions incident on the detector array
+
+====================================================================================================
+### p3 SLIDE 14
+====================================================================================================
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | B. Evaluation of the Spectral Smile by Atmospheric Correction 
+  P1 sz=set() b=False | The analytical procedure to evaluate the spectral smile by atmospheric correction was given as follows. In this analysis, we used the modeled radiance incident on HISUI from the target site, which was calculated using MODTRAN 6. MODTRAN calculations were performed using the U.S. Standard 1976 Atmospheric Profile, the desert aerosol model, and a Lambertian desert-barren surface type as representative parameter values. In addition, solar altitude, target latitude and longitude, ground height, and seasonal parameters were provided with values for each target and observation timing. These settings are a simple and efficient method for evaluating spectral smile for large numbers of pixels in a variety of HISUI scenes. Note that fine-tuning of MODTRAN parameters was not conducted for this analysis because the objective of this study was not to obtain accurate surface reflectance, but rather to estimate δλ using atmospheric absorption bands.

@@ -1,0 +1,176 @@
+
+====================================================================================================
+### p2 SLIDE 1
+====================================================================================================
+
+-- shape0 '标题 1' pos=[1.67, 1.23, 10.0, 2.61]
+  P0 sz=set() b=False | Principles of Spectral Imaging
+
+-- shape1 '副标题 2' pos=[1.67, 3.94, 10.0, 1.81]
+  P0 sz=set() b=False | 光谱成像原理
+
+====================================================================================================
+### p2 SLIDE 2
+====================================================================================================
+
+-- shape3 '文本框 5' pos=[2.93, 2.22, 4.14, 0.57]
+  P0 sz={28.0} b=True | 光谱成像的主要模式
+
+-- shape4 '文本框 6' pos=[2.93, 4.17, 3.57, 1.04]
+  P0 sz={28.0} b=True | 光谱分辨率与空间分辨率及其权衡
+
+-- shape5 '文本框 7' pos=[1.51, 6.13, 3.68, 0.57]
+  P0 sz={28.0} b=True | 多光谱与高光谱
+
+-- shape11 '文本框 25' pos=[8.79, 2.06, 4.54, 0.71]
+  P0 sz=set() b=False | Three Primary Spectral‑Imaging Acquisition Modes
+
+-- shape12 '文本框 35' pos=[1.37, 0.98, 5.3, 0.57]
+  P0 sz={28.0} b=True | 单点光谱扩展到光谱成像
+
+-- shape14 '文本框 41' pos=[8.42, 0.91, 4.63, 0.71]
+  P0 sz=set() b=False | From Single‑Point Spectroscopy to Spectral Imaging
+
+-- shape16 '文本框 44' pos=[8.56, 4.53, 4.58, 0.71]
+  P0 sz=set() b=False | Trade‑off Between Spatial Resolution and Spectral Resolution
+
+-- shape18 '文本框 49' pos=[8.62, 6.22, 3.97, 0.4]
+  P0 sz=set() b=False | Multispectral and hyperspectral
+
+====================================================================================================
+### p2 SLIDE 3
+====================================================================================================
+
+-- shape1 '标题 1' pos=[0.92, 0.4, 11.5, 1.45]
+  P0 sz=set() b=False | From Single‑Point Spectroscopy to Spectral Imaging
+
+-- shape2 '内容占位符 2' pos=[0.92, 2.0, 8.58, 4.76]
+  P0 sz=set() b=False | Conventional single‑point spectroscopy only obtains spectral information at one fixed spatial location: it answers “what” material the target is.
+  P1 sz=set() b=False | - Traditional 2‑D imaging only records spatial information: it answers “where” the object is located.
+  P2 sz=set() b=False | - Spectral imaging combines spectroscopy and imaging, generating a 3‑D spectral data cube I(x,y,λ). It answers: where is what.
+  P3 sz=set() b=False | - The data cube contains two spatial dimensions (x,y) and one spectral dimension (λ).
+
+-- shape3 '文本框 3' pos=[9.39, 5.88, 3.51, 0.4]
+  P0 sz=set() b=False | FIGURE 1. 3-D data cube [1]
+
+====================================================================================================
+### p2 SLIDE 4
+====================================================================================================
+
+-- shape1 '文本占位符 3' pos=[0.59, 0.83, 7.3, 5.85]
+  P0 sz=set() b=False | Whiskbroom Mode (Point‑Scanning，扫帚式 / 点扫描)
+  P1 sz=set() b=False | Optical path: Scanning mirror moves across scene, one spatial point at a time. Each single point acquires its complete full spectrum. Build cube by scanning every pixel point‑by‑point.
+  P2 sz=set() b=False | ✅ Pros: High spectral quality for each sampled point; good SNR.
+  P3 sz=set() b=False | ❌ Cons: Two‑axis mechanical scanning; long acquisition time; moving‑part artifacts.
+  P4 sz=set() b=False | Pushbroom Mode (Line‑Scanning，推扫式 / 线扫描)
+  P5 sz=set() b=False | Optical path: Simultaneously captures an entire line of spatial information plus full spectrum for each pixel on that line. Complete 2‑D spatial area is obtained via relative platform motion (aircraft / satellite / translation stage).
+  P6 sz=set() b=False | ✅ Pros: Much faster than whiskbroom; widely used in remote sensing.
+  P7 sz=set() b=False | ❌ Cons: Depends on steady relative movement between sensor and target.
+
+-- shape2 '文本框 2' pos=[8.02, 6.62, 5.31, 0.71]
+  P0 sz=set() b=False | FIGURE 2. (a) Point scanning or whiskbroom, 
+  P1 sz=set() b=False | 	(b)  Line scanning or pushbroom [1]
+
+====================================================================================================
+### p2 SLIDE 5
+====================================================================================================
+
+-- shape1 '文本占位符 3' pos=[0.62, 0.83, 7.3, 5.85]
+  P0 sz=set() b=False | Staring Mode (Spectral Scanning，凝视式 / 光谱扫描)
+  P1 sz=set() b=False |  
+  P2 sz=set() b=False | Optical path: Keep the whole scene stationary on detector; use tunable optical filters (AOTF, LCTF, FPI, LVF) to sequentially select one wavelength band. Stack series of 2‑D images to reconstruct the full 3‑D data cube.
+  P3 sz=set() b=False | ✅ Pros: Captures full‑field scene for each wavelength; no spatial mechanical scanning.
+  P4 sz=set() b=False | ❌ Cons: Wavelength scanning takes time; poor performance for dynamic moving scenes.
+
+-- shape2 '文本框 2' pos=[7.92, 6.61, 5.31, 0.4]
+  P0 sz=set() b=False | FIGURE 3. (c)Spectral scanning (SC) or staring [1]
+
+====================================================================================================
+### p2 SLIDE 6
+====================================================================================================
+
+-- shape0 '标题 4' pos=[0.92, 0.4, 11.5, 1.45]
+  P0 sz=set() b=True | Trade‑off Between Spatial Resolution and Spectral Resolution
+
+-- shape1 '内容占位符 5' pos=[0.92, 2.11, 11.5, 4.76]
+  P0 sz=set() b=False | - In conventional spectral‑imaging optical systems, there exists an intrinsic trade‑off between spatial resolution and spectral resolution [1].
+  P1 sz=set() b=False | - Higher spectral resolution requires more, narrower spectral bands. Under limited photon budget and detector constraints, this often sacrifices spatial sampling performance.
+  P2 sz=set() b=False | - If you pursue fine spatial details (high spatial resolution), the number of available spectral channels will be limited.
+  P3 sz=set() b=False | - Advanced approaches such as snapshot imaging and compressive computational imaging can mitigate this conflict, but cannot completely eliminate the fundamental physical limits from photon availability.
+
+====================================================================================================
+### p2 SLIDE 7
+====================================================================================================
+
+-- shape0 '标题 1' pos=[0.92, 0.4, 11.5, 1.45]
+  P0 sz={32.0} b=True | MULTISPECTRAL IMAGING多光谱成像
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | By capturing and analyzing how objects reflect, absorb, or emit light across different spectral bands, MSI uncovers information about the composition, structure, and properties of a scene or object. [1]
+  P1 sz=set() b=False | 通过捕捉和分析物体在不同光谱带中反射、吸收或发射光的方式，多光谱成像（MSI）能够揭示场景或物体的组成、结构和特性信息。 
+
+====================================================================================================
+### p2 SLIDE 8
+====================================================================================================
+
+-- shape0 '标题 1' pos=[0.92, 0.4, 11.5, 1.45]
+  P0 sz={32.0} b=True | HYPERSPECTRAL IMAGING高光谱成像
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | While MSI systems have long provided a balance between spectral information and ease of implementation, the HSI systems have pushed the boundaries in terms of providing deep spectral insight.[1]
+  P1 sz=set() b=False | 虽然多光谱成像（MSI）系统长期以来一直在光谱信息与实施便捷性之间寻求平衡，但高光谱成像（HSI）系统在提供深入的光谱洞察方面则突破了界限。
+
+====================================================================================================
+### p2 SLIDE 9
+====================================================================================================
+
+-- shape0 '标题 1' pos=[0.92, 0.4, 11.5, 1.45]
+  P0 sz={32.0} b=True | HYPERSPECTRAL IMAGING高光谱成像
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | The pros of using Hyperspectral Imaging in different applications such as agriculture, and food quality estimation are as follows [2]: 
+  P1 sz=set() b=False | (i) It is a non-invasive, non-contact, non-destructive technology that ensures the quality and safety of food goods. 
+  P2 sz=set() b=False | (ii) The experiments use no chemicals therefore environmentally safe. 
+  P3 sz=set() b=False | (iii) The time required to process for quality evaluation and food control/storage is low compared to chemical and traditional approaches. 
+  P4 sz=set() b=False | (iv) It gives an improved understanding of the chemical elements of food products and is generally known as chemical imaging. 
+  P5 sz=set() b=False | (v) It provides appropriate area selection for critical analysis of the image. 
+  P6 sz=set() b=False | (vi) It gains spatial and spectral information together to provide more appropriate and accurate data concerning chemical samples from interested platforms and enhance a chance to data refine and achieve further experiments. 
+
+====================================================================================================
+### p2 SLIDE 10
+====================================================================================================
+
+-- shape0 '标题 1' pos=[0.92, 0.4, 11.5, 1.45]
+  P0 sz={32.0} b=True | HYPERSPECTRAL IMAGING高光谱成像
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | Despite its pros, Hyperspectral Imaging also has some cons [2]. 
+  P1 sz=set() b=False | (i) A hyperspectral imaging system is highly costly compared to other image processing techniques. 
+  P2 sz=set() b=False | (ii) Since the data size of hyperspectral imaging is large, there is a demand for high-speed computers for the processing of data and extensive capacity drives for the storage of data. 
+  P3 sz=set() b=False | (iii) While acquiring the images, the signal could be impacted by ambient surroundings such as scattering, illumination, etc. therefore producing a destitute signal-to-noise ratio. 
+  P4 sz=set() b=False | (iv) Detection and identification of different items within the equivalent image using spectral data is mostly difficult except the diverse objects have distinct absorption features. 
+
+====================================================================================================
+### p2 SLIDE 11
+====================================================================================================
+
+-- shape0 '标题 1' pos=[0.0, -0.23, 13.33, 1.45]
+  P0 sz=set() b=True | Multispectral Imaging VS Hyperspectral Imaging
+
+-- shape1 TABLE '内容占位符 10' pos=[0.92, 0.97, 11.54, 5.34]
+  R0:  || Multispectral Imaging  多光谱成像 || Hyperspectral Imaging 高光谱成像
+  R1: Spectral bands  光谱波段 || Discrete widely‑spaced bands (typically 3‑25 bands) || Hundreds of contiguous narrow spectral bands 
+  R2: Spectral signature 光谱特征 || Coarse spectral sampling || Dense continuous spectral fingerprint per pixel 
+  R3: Data volume 数据量 || Small, easy to process || Large 3‑D data cube heavy computation load
+  R4: Typical strength  优势 || Higher spatial / temporal resolution;  low cost || Fine material discrimination by continuous spectrum 
+
+====================================================================================================
+### p2 SLIDE 12
+====================================================================================================
+
+-- shape0 '标题 1' pos=[0.92, 0.4, 11.5, 1.45]
+  P0 sz=set() b=False | 论文引用
+
+-- shape1 '内容占位符 2' pos=[0.92, 2.0, 11.5, 4.76]
+  P0 sz=set() b=False | [1] Mukhtar, S., Arbabi, A., & Viegas, J. (2025). Advances in Spectral Imaging: A Review of Techniques and Technologies. IEEE Access, 13, 35848‑35902. https://doi.org/10.1109/ACCESS.2025.3544476
+  P1 sz=set() b=False | [2] Guolan Lu, Baowei Fei, Medical hyperspectral imaging: a review, J. Biomed. Opt. 19 (1) (20 January 2014) 010901, https://doi.org/10.1117/1. JBO

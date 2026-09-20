@@ -1,0 +1,158 @@
+
+====================================================================================================
+### p1 SLIDE 1
+====================================================================================================
+
+-- shape0 '标题 1' pos=[1.67, 1.82, 10.0, 1.74]
+  P0 sz=set() b=False | Part 1：Fundamentals of Spectroscopy
+
+-- shape1 '文本框 3' pos=[1.86, 3.94, 9.6, 1.92]
+  P0 sz=set() b=True | Main references
+  P1 sz=set() b=False | [1]Garini Y, Young I T, McNamara G. Spectral imaging: principles and applications[J]. Cytometry part a: the journal of the international society for analytical cytology, 2006, 69(8): 735-747.
+  P2 sz=set() b=False | [2] Prasad R D, Sarvalkar P D, Prasad N, et al. A review on spectroscopic techniques for analysis of nanomaterials and biomaterials[J]. ES Energy and Environment, 2024, 27: 1264.
+
+====================================================================================================
+### p1 SLIDE 2
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.52, 1.29, 6.99, 5.15]
+  P0 sz={20.0} b=False | Wave can be defined as any disturbance made in the medium that propagates through space. Most of the waves require some of the supporting media for propagation. The time dependence of displacement at any single point in the space often oscillates about some equilibrium position. For example, sound waves travel through the medium of air, and disturbance is the small collective displacement of air molecules. Therefore, it has properties of waves such as ocean waves, and light waves have crests and troughs. The distance between two successive crests or troughs is known as wavelength. Frequency can be defined  as the number of waves passing from a point in one second. The velocity of light is the product of the wavelength of light and frequency of light. The different colors of light have different frequencies and wavelengths. 
+
+-- shape1 '文本框 4' pos=[7.74, 1.29, 4.48, 4.04]
+  P0 sz=set() b=False | 波可以定义为在空间传播的介质中产生的任何扰动。大多数波需要一些支持介质才能传播。空间中任何单点位移的时间依赖性常常围绕某个平衡位置振荡。例如，声波通过空气介质传播，扰动是空气分子的微小集体位移。因此，它具有海浪等波的性质，光波也有波峰和波谷。两个连续波峰或波谷之间的距离称为波长。频率可以定义为一秒钟内从一点经过的波数。光速是光的波长和光的频率的乘积。不同颜色的光有不同的频率和波长。光可以直线穿过某些物体，但不是所有物体。
+
+-- shape2 '文本框 5' pos=[0.52, 0.71, 6.38, 0.57]
+  P0 sz={28.0} b=False | 1.Light as electromagnetic waves
+
+====================================================================================================
+### p1 SLIDE 3
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.52, 1.29, 6.08, 5.15]
+  P0 sz={20.0} b=False | Spectroscopy is a term that is used to describe different phenomena, and we limit our discussion to optical spectroscopy, mainly in the visible light range. A spectrum is a collection of light intensities at different wavelengths. Spectroscopy, the science of acquiring and explaining the spectral characteristics of matter, is a broad, well established and old science. Newton described the dispersion of white light to its constituent colors in 1666 and by 1900 the spectrograph, a system for measuring a spectrum, was widely used. Spectroscopy provided the spectrum of hydrogen that was explained by Balmer in 1885, which led in 1913 to the Bo€hr model of the atom, and finally to the development of quantum mechanics by Schr€odinger in 1926.
+
+-- shape1 '文本框 4' pos=[6.6, 1.29, 6.01, 3.13]
+  P0 sz=set() b=False | 光谱学是一个用于描述不同现象的术语，我们将讨论限制在光谱学上，主要是在可见光范围内。光谱是不同波长的光强度的集合。光谱学是一门获取和解释物质光谱特征的科学，是一门广泛、完善的古老科学。牛顿于 1666 年描述了白光对其组成颜色的色散，到 1900 年，光谱仪（一种用于测量光谱的系统）得到了广泛使用。光谱学提供了巴尔默 (Balmer) 于 1885 年解释的氢光谱，从而在 1913 年提出了原子的玻尔模型 ，并最终由薛定谔 (Schrödinger) 在 1926 年发展了量子力学 。
+
+-- shape2 '文本框 5' pos=[0.52, 0.72, 3.74, 0.57]
+  P0 sz={28.0} b=False | 2.Spectroscopy
+
+====================================================================================================
+### p1 SLIDE 4
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.59, 1.28, 6.08, 5.15]
+  P0 sz={20.0} b=False | The structure of atoms and molecules is directly related to spectroscopy. The spectrum is a direct measurement of the energy levels of the detected structure (Fig. 1). Molecules (and atoms) have a specific energy-band structure. In an absorption process (which occurs in both brightfield and fluorescence microscopy), an electron is excited from the ground state to an excited energy band (1 in Fig. 1). In fluorescence, the electron rapidly decays to a meta-stable energy level (2 in Fig. 1). Then, light is emitted when the electron decays back to the ground state (3 in Fig. 1). The energy levels are intrinsic properties of the molecule, and the spectrum, therefore, provides a precise fingerprint of the molecule.
+
+-- shape1 '文本框 4' pos=[6.67, 1.28, 6.01, 2.52]
+  P0 sz=set() b=False | 原子和分子的结构与光谱学直接相关。光谱是对所检测结构能级的直接测量（图 1）。分子（和原子）具有特定的能带结构。在吸收过程（明场显微镜和荧光显微镜中都会发生）中，电子从基态激发到激发能带（图 1 中的 1）。在荧光中，电子迅速衰减到亚稳态能级（图 1 中的 2）。然后，当电子衰变回到基态时就会发射光（图 1 中的 3）。能级是分子的固有属性，因此光谱提供了分子的精确指纹。
+
+-- shape3 '文本框 7' pos=[10.37, 4.1, 2.31, 2.52]
+  P0 sz={12.0} b=False | FIG. 1. A simplified energy-level diagram of a fluorescent molecule (1). Electrons are excited from the ground state to the excited band by absorbing a photon (2). The electrons decay rapidly to a meta-stable energy level (3). Electrons fall back to the ground state by emitting a photon with lower energy relative to the exciting photon.
+
+-- shape4 '文本框 1' pos=[0.59, 0.66, 6.73, 1.04]
+  P0 sz={28.0} b=False | 3.The basic principle of spectroscopy
+
+====================================================================================================
+### p1 SLIDE 5
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.52, 1.29, 6.08, 5.15]
+  P0 sz={20.0} b=False | Some of the important characteristics of a spectrum includes:  
+  P1 sz={20.0} b=False | 1. The spectral resolution determines the closest wavelengths that can be distinguished. 
+  P2 sz={20.0} b=False | 2. The spectral range in which spectra can be measured. 
+  P3 sz={20.0} b=False | 3. The lowest detectable signal and dynamic range, which defines the smallest measurable signal and the number of distinguishable levels in a given measurement. These parameters also depend on the shape of the measured spectrum. A sharp laser line has a better detectable signal because the energy is concentrated at a single wavelength when compared to a broad spectrum with equal energy which is distributed over a large spectral range.
+
+-- shape1 '文本框 4' pos=[6.6, 1.29, 6.01, 2.52]
+  P0 sz=set() b=False | 光谱的一些重要特征包括：
+  P1 sz=set() b=False | 1. 光谱分辨率决定了可以区分的最接近的波长。 
+  P2 sz=set() b=False | 2. 可测量光谱的光谱范围。 
+  P3 sz=set() b=False | 3. 最低可检测信号和动态范围，定义了给定测量中的最小可测量信号和可区分级别的数量。这些参数还取决于测量光谱的形状。尖锐的激光线具有更好的可检测信号，因为与分布在较大光谱范围内的具有相同能量的宽光谱相比，能量集中在单个波长处。
+
+-- shape2 '文本框 5' pos=[0.52, 0.72, 3.74, 0.57]
+  P0 sz={28.0} b=False | 4.Main parameter
+
+====================================================================================================
+### p1 SLIDE 6
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.52, 1.29, 4.5, 3.6]
+  P0 sz={24.0} b=False | Prism spectroscopy
+  P1 sz={24.0} b=False |  (17-18th century)  
+  P2 sz={20.0} b=False | The earliest observations of spectroscopic phenomena can be traced back to experiments conducted by Isaac Newton in the late 17th century. He demonstrated that white light could be separated into its component colors using a prism, revealing the spectrum of visible light.
+
+-- shape1 '文本框 5' pos=[0.52, 0.72, 9.83, 0.57]
+  P0 sz={28.0} b=False | 5.Historical developments in spectroscopic techniques
+
+-- shape2 '文本框 1' pos=[5.02, 1.29, 7.91, 4.21]
+  P0 sz={24.0} b=False | Spectral analysis  (19th century)  
+  P1 sz={20.0} b=False | In the early 19th century, Joseph von Fraunhofer made significant contributions to spectroscopy by systematically studying the absorption lines in the solar spectrum. He also discovered hundreds of dark lines, known as Fraunhofer lines, which are caused by the absorption of specific wavelengths of light by elements in the Sun's atmosphere. Gustav Kirchhoff and Robert Bunsen further advanced the field of spectroscopy in the mid-19th century. They developed the technique of flame emission spectroscopy, which involves heating samples in a flame to produce characteristic emission spectra. Their work laid the foundation for quantitative analysis of chemical elements based on their spectral signatures.
+
+====================================================================================================
+### p1 SLIDE 7
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.52, 1.29, 5.07, 5.28]
+  P0 sz={24.0} b=False | Quantum mechanics and atomic spectra (Early 20th century) 
+  P1 sz={20.0} b=False | The development of quantum mechanics in the early 20th century revolutionized our understanding of atomic structure and spectral lines. Scientists such as Niels Bohr, Max Planck, and Werner Heisenberg formulated theories to explain the discrete energy levels of atoms and the quantized nature of electromagnetic radiation. The Bohr model of the atom, proposed by Niels Bohr in 1913, provided a theoretical framework for understanding atomic spectra and the transitions of electrons between energy levels.
+
+-- shape1 '文本框 5' pos=[0.52, 0.72, 9.83, 0.57]
+  P0 sz={28.0} b=False | 5.Historical developments in spectroscopic techniques
+
+-- shape2 '文本框 1' pos=[6.28, 1.28, 5.33, 5.62]
+  P0 sz={24.0} b=False | Modern spectroscopic techniques (20th-21st century) 
+  P1 sz={20.0} b=False | Throughout the 20th and 21st centuries, spectroscopic techniques have continued to evolve with technological advancements and instrumentation. Developing techniques such as infrared (IR) spectroscopy, Raman spectroscopy, nuclear magnetic resonance spectroscopy, and X-ray spectroscopy has expanded the range of applications in fields such as chemistry, physics, biology, materials science, and medicine. Innovations in detectors, lasers, optics, and computational methods have enabled researchers to achieve higher sensitivity, resolution, and versatility in spectroscopic measurements.
+
+====================================================================================================
+### p1 SLIDE 8
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.52, 1.29, 6.67, 3.87]
+  P0 sz={24.0} b=False | Absorption instrumentation: 
+  P1 sz={20.0} b=False | The radiation from a white source is directed by some guiding device onto the sample, from which it passes through an analyzer, which selects the frequency that reaches the detector at any given time. The signal from the analyzer passes to a recorder, which is synchronized with the analyzer to produce a trace of absorbance as the frequency varies. A modulator is often placed between the sample and the analyzer. The role of the modulator is to manipulate the properties of light or other electromagnetic radiation to exact specific information from a sample.
+
+-- shape1 '文本框 5' pos=[0.52, 0.72, 10.74, 0.57]
+  P0 sz={28.0} b=False | 6.Classification and types of major spectroscopic techniques
+
+-- shape2 '文本框 1' pos=[7.18, 3.4, 5.42, 3.53]
+  P0 sz={24.0, 20.0} b=False | b) Emission instrument: Emission instrumentation in spectroscopy refers to the device and systems used to measure the emission spectra of atoms, molecules, or ions.
+  P1 sz={20.0} b=False | Many instruments are developed based on the emission mechanism, such as atomic emission spectroscopy, optical emission spectroscopy, inductively coupled plasma emission spectroscopy, laser-induced breakdown spectroscopy, and fluorescence spectroscopy.
+
+====================================================================================================
+### p1 SLIDE 9
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.59, 1.29, 4.84, 5.49]
+  P0 sz={20.0} b=False | In optical spectroscopy, the absorption of light by a sample is typically described by Beer-Lambert's law, which states that the absorbance of light is proportional to the concentration of  the absorbing species, the path length of the light through the sample, and the molar absorptivity of the species at a given wavelength. By measuring the absorbance of light at different wavelengths, one can obtain an absorption spectrum that reveals the characteristic absorption bands or peaks associated with specific molecular or electronic transitions. 
+  P1 sz={20.0} b=False |  
+
+-- shape1 '文本框 5' pos=[0.52, 0.72, 10.93, 0.57]
+  P0 sz={28.0} b=False | 7. Measurement Principles of Absorption and Emission Spectra
+
+-- shape3 '文本框 1' pos=[5.56, 4.26, 6.48, 2.83]
+  P0 sz={18.0} b=False | In emission spectroscopy, the intensity of light emitted is measured. This light, which may occur instantaneously or with a delay, contains information about the energy levels, electronic states, and chemical environment of the emitting species. There are two main types of spectroscopy: fluorescence and Phosphorescence spectroscopy. These two spectroscopic techniques are common types of emission spectroscopy, distinguished by their respective mechanisms of excited state relaxation and lifetime.
+
+====================================================================================================
+### p1 SLIDE 10
+====================================================================================================
+
+-- shape0 '文本框 3' pos=[0.52, 1.29, 12.47, 5.49]
+  P0 sz={20.0} b=False | 1. 光学光谱 Optical Spectroscopy 　
+  P1 sz={20.0} b=False |     UV-Vis 紫外-可见 ｜ UPS 紫外光电子能谱 ｜ 荧光光谱 Fluorescence
+  P2 sz={20.0} b=False | 2. 振动光谱 Vibrational Spectroscopy 　
+  P3 sz={20.0} b=False |     FT-IR 傅里叶变换红外 ｜ Raman 拉曼 ｜ SERS 表面增强拉曼
+  P4 sz={20.0} b=False | 3. 电子光谱 Electron Spectroscopy 　
+  P5 sz={20.0} b=False |     XPS X射线光电子能谱 ｜ AES 俄歇电子能谱 ｜ EELS 电子能量损失谱
+  P6 sz={20.0} b=False | 4. 磁共振光谱 Magnetic Resonance 　
+  P7 sz={20.0} b=False |     NMR 核磁共振 ｜ FMR 铁磁共振
+  P8 sz={20.0} b=False | 5. 质谱 Mass Spectrometry 　
+  P9 sz={20.0} b=False |     TOF-MS 飞行时间质谱 ｜ MALDI-MS 基质辅助激光解吸电离质谱
+  P10 sz={20.0} b=False | 6. 热光谱 Thermal Analysis 　
+  P11 sz={20.0} b=False |     TGA 热重分析
+  P12 sz={20.0} b=False | 7. 光发射光谱 Optical Emission 　
+  P13 sz={20.0} b=False |     OES 光发射光谱 ｜ ICP-OES 电感耦合等离子体光发射光谱
+  P14 sz={20.0} b=False | 8. 其它 Miscellaneous 　
+  P15 sz={20.0} b=False |     XAS X 射线吸收光谱（含 XANES / EXAFS）｜ AAS 原子吸收光谱
+
+-- shape1 '文本框 5' pos=[0.52, 0.72, 6.15, 0.57]
+  P0 sz={28.0} b=False | 8. Major Spectroscopic Techniques

@@ -1,0 +1,5480 @@
+{
+ "p1": [
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     1.67,
+     1.82,
+     10.0,
+     1.74
+    ],
+    "paras": [
+     [
+      {
+       "t": "Part 1",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Fundamentals of Spectroscopy",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     1.86,
+     3.94,
+     9.6,
+     1.92
+    ],
+    "paras": [
+     [
+      {
+       "t": "Main references",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "[1]",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Garini",
+       "sz": null,
+       "b": false
+      },
+      {
+       "t": " Y, Young I T, McNamara G. Spectral imaging: principles and applications[J]. Cytometry part a: the journal of the international society for analytical cytology, 2006, 69(8): 735-747.",
+       "sz": null,
+       "b": false
+      }
+     ],
+     [
+      {
+       "t": "[2]",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Prasad R D, ",
+       "sz": null,
+       "b": false
+      },
+      {
+       "t": "Sarvalkar",
+       "sz": null,
+       "b": false
+      },
+      {
+       "t": " P D, Prasad N, et al. A review on spectroscopic techniques for analysis of nanomaterials and biomaterials[J]. ES Energy and Environment, 2024, 27: 1264.",
+       "sz": null,
+       "b": false
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     1.29,
+     6.99,
+     5.15
+    ],
+    "paras": [
+     [
+      {
+       "t": "Wave can be defined as any disturbance made in the medium that propagates through space. Most of the waves require some of the supporting media for propagation. The time dependence of displacement at any single point in the space often oscillates about some equilibrium position. For example, sound waves travel through the medium of air, and disturbance is the small collective displacement of air molecules. Therefore, it has properties of waves such as ocean waves, and light waves have ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "crests",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " and ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "troughs",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ". The distance between two successive crests or troughs is known as ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "wavelength",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ". ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Frequency",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " can be defined  as the number of waves passing from a point in one second. The velocity of light is the product of the wavelength of light and frequency of light. The different colors of light have different frequencies and wavelengths. ",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 4",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     7.74,
+     1.29,
+     4.48,
+     4.04
+    ],
+    "paras": [
+     [
+      {
+       "t": "波可以定义为在空间传播的介质中产生的任何扰动。大多数波需要一些支持介质才能传播。空间中任何单点位移的时间依赖性常常围绕某个平衡位置振荡。例如，声波通过空气介质传播，扰动是空气分子的微小集体位移。因此，它具有海浪等波的性质，光波也有波峰和波谷。两个连续",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "波峰",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "或",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "波谷",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "之间的距离称为",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "波长",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "频率",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "可以定义为一秒钟内从一点经过的波数。光速是光的波长和光的频率的乘积。不同颜色的光有不同的频率和波长。光可以直线穿过某些物体，但不是所有物体。",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     0.71,
+     6.38,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "1.Light as electromagnetic waves",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     1.29,
+     6.08,
+     5.15
+    ],
+    "paras": [
+     [
+      {
+       "t": "Spectroscopy",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " is a term that is used to describe different phenomena, and we limit our discussion to optical spectroscopy, mainly in the visible light range. A ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "spectrum",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " is a collection of light intensities at different wavelengths. Spectroscopy, the science of acquiring and explaining the spectral characteristics of matter, is a broad, well established and old science. Newton described the ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "dispersion",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " of white light to its constituent colors in 1666 and by 1900 the ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "spectrograph",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ", a system for measuring a spectrum, was widely used. Spectroscopy provided the spectrum of hydrogen that was explained by Balmer in 1885, which led in 1913 to the ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Bo€hr",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " model of the atom, and finally to the development of quantum mechanics by ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Schr€odinger",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " in 1926.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 4",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     6.6,
+     1.29,
+     6.01,
+     3.13
+    ],
+    "paras": [
+     [
+      {
+       "t": "光谱学",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "是一个用于描述不同现象的术语，我们将讨论限制在光谱学上，主要是在可见光范围内。",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "光谱",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "是不同波长的光强度的集合。光谱学是一门获取和解释物质光谱特征的科学，是一门广泛、完善的古老科学。牛顿于 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1666 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "年描述了白光对其组成颜色的",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "色散",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "，到 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1900 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "年，",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "光谱仪",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "（一种用于测量光谱的系统）得到了广泛使用。光谱学提供了巴尔默 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "(Balmer) ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "于 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1885 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "年解释的氢光谱，从而在 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1913 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "年提出了原子的玻尔模型 ，并最终由薛定谔 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "(Schrödinger) ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "在 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1926 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "年发展了量子力学 。",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     0.72,
+     3.74,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "2.Spectroscopy",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.59,
+     1.28,
+     6.08,
+     5.15
+    ],
+    "paras": [
+     [
+      {
+       "t": "The structure of atoms and molecules is directly related to spectroscopy. The spectrum is a direct measurement of the energy levels of the detected structure (Fig. 1). Molecules (and atoms) have a specific ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "energy-band structure",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ". In an absorption process (which occurs in both brightfield and ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "fluorescence",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " microscopy), an ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "electron",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " is excited from the ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "ground state ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "to an excited energy band (1 in Fig. 1). In fluorescence, the electron rapidly decays to a ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "meta-stable energy level ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "(2 in Fig. 1). Then, light is emitted when the electron decays back to the ground state (3 in Fig. 1). The energy levels are intrinsic properties of the molecule, and the spectrum, therefore, provides a precise fingerprint of the molecule.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 4",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     6.67,
+     1.28,
+     6.01,
+     2.52
+    ],
+    "paras": [
+     [
+      {
+       "t": "原子和分子的结构与光谱学直接相关。光谱是对所检测结构能级的直接测量（图 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。分子（和原子）具有特定的",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "能带结构",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。在吸收过程（明场显微镜和",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "荧光",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "显微镜中都会发生）中，电子从",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "基态",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "激发到激发能带（图 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "中的 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。在荧光中，",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "电子",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "迅速衰减到",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "亚稳态能级",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "（图 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "中的 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "2",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。然后，当电子衰变回到基态时就会发射光（图 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "中的 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "3",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。能级是分子的固有属性，因此光谱提供了分子的精确指纹。",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "图片 2",
+    "type": "PICTURE (13)",
+    "pos": [
+     6.74,
+     3.88,
+     3.36,
+     2.96
+    ]
+   },
+   {
+    "name": "文本框 7",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     10.37,
+     4.1,
+     2.31,
+     2.52
+    ],
+    "paras": [
+     [
+      {
+       "t": "FIG. 1. A simplified energy-level diagram of a fluorescent molecule (1). Electrons are excited from the ground state to the excited band by absorbing a photon (2). The electrons decay rapidly to a meta-stable energy level (3). Electrons fall back to the ground state by emitting a photon with lower energy relative to the exciting photon.",
+       "sz": 12.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 1",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.59,
+     0.66,
+     6.73,
+     1.04
+    ],
+    "paras": [
+     [
+      {
+       "t": "3.The basic principle of spectroscopy",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     1.29,
+     6.08,
+     5.15
+    ],
+    "paras": [
+     [
+      {
+       "t": "Some of the important characteristics of a spectrum includes:  ",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "1. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "The spectral resolution ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "determines the closest wavelengths that can be distinguished. ",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "2. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "The spectral range ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "in which spectra can be measured. ",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "3. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "The lowest detectable signal and dynamic range",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ", which defines the smallest measurable signal and the number of distinguishable levels in a given measurement. These parameters also depend on the shape of the measured spectrum. A sharp laser line has a better detectable signal because the energy is concentrated at a single wavelength when compared to a broad spectrum with equal energy which is distributed over a large spectral range.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 4",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     6.6,
+     1.29,
+     6.01,
+     2.52
+    ],
+    "paras": [
+     [
+      {
+       "t": "光谱的一些重要特征包括：",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "1. ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "光谱分辨率",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "决定了可以区分的最接近的波长。 ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "2. ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "可测量光谱的",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "光谱范围",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。 ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "3. ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "最低可检测信号和动态范围",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "，定义了给定测量中的最小可测量信号和可区分级别的数量。这些参数还取决于测量光谱的形状。尖锐的激光线具有更好的可检测信号，因为与分布在较大光谱范围内的具有相同能量的宽光谱相比，能量集中在单个波长处。",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     0.72,
+     3.74,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "4.Main parameter",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     1.29,
+     4.5,
+     3.6
+    ],
+    "paras": [
+     [
+      {
+       "t": "Prism",
+       "sz": 24.0,
+       "b": null
+      },
+      {
+       "t": " spectroscopy",
+       "sz": 24.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " (17-18th century)  ",
+       "sz": 24.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "The earliest observations of spectroscopic phenomena can be traced back to experiments conducted by Isaac Newton in the late 17th century. He demonstrated that white light could be separated into its component colors using a prism, revealing the spectrum of visible light.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     0.72,
+     9.83,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "5.Historical developments in spectroscopic techniques",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 1",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     5.02,
+     1.29,
+     7.91,
+     4.21
+    ],
+    "paras": [
+     [
+      {
+       "t": "Spectral analysis  (19th century)  ",
+       "sz": 24.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "In the early 19th century, Joseph von Fraunhofer made significant contributions to spectroscopy by systematically studying the absorption lines in the solar spectrum. He also discovered hundreds of dark lines, known as ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Fraunhofer lines",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ", which are caused by the absorption of specific wavelengths of light by elements in the Sun's atmosphere. Gustav Kirchhoff and Robert Bunsen further advanced the field of spectroscopy in the mid-19th century. They developed the technique of ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "flame emission spectroscopy",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ", which involves heating samples in a flame to produce characteristic emission spectra. Their work laid the foundation for quantitative analysis of chemical elements based on their spectral signatures.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "图片 4",
+    "type": "PICTURE (13)",
+    "pos": [
+     0.99,
+     4.97,
+     3.13,
+     1.94
+    ]
+   },
+   {
+    "name": "图片 7",
+    "type": "PICTURE (13)",
+    "pos": [
+     5.01,
+     5.5,
+     7.65,
+     1.63
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     1.29,
+     5.07,
+     5.28
+    ],
+    "paras": [
+     [
+      {
+       "t": "Quantum mechanics and ",
+       "sz": 24.0,
+       "b": null
+      },
+      {
+       "t": "atomic spectra",
+       "sz": 24.0,
+       "b": null
+      },
+      {
+       "t": " (Early 20th century) ",
+       "sz": 24.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "The development of quantum mechanics in the early 20th century revolutionized our understanding of atomic structure and spectral lines. Scientists such as Niels Bohr, Max Planck, and Werner Heisenberg formulated theories to explain the discrete energy levels of atoms and the quantized nature of electromagnetic radiation. The Bohr model of the atom, proposed by Niels Bohr in 1913, provided a theoretical framework for understanding atomic spectra and the transitions of electrons between energy levels.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     0.72,
+     9.83,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "5.Historical developments in spectroscopic techniques",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 1",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     6.28,
+     1.28,
+     5.33,
+     5.62
+    ],
+    "paras": [
+     [
+      {
+       "t": "Modern spectroscopic techniques (20th-21st century) ",
+       "sz": 24.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Throughout the 20th and 21st centuries, spectroscopic techniques have continued to evolve with technological advancements and instrumentation. Developing techniques such as ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "infrared (IR) spectroscopy",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ", ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Raman spectroscopy",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ", ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "nuclear magnetic resonance spectroscopy",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": ", and ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "X-ray spectroscopy ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "has expanded the range of applications in fields such as chemistry, physics, biology, materials science, and medicine. Innovations in detectors, lasers, optics, and computational methods have enabled researchers to achieve higher sensitivity, resolution, and versatility in spectroscopic measurements.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     1.29,
+     6.67,
+     3.87
+    ],
+    "paras": [
+     [
+      {
+       "t": "Absorption instrumentation: ",
+       "sz": 24.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "The radiation from a white source is directed by some guiding device onto the sample, from which it passes through an analyzer, which selects the frequency that reaches the detector at any given time. The signal from the analyzer passes to a recorder, which is synchronized with the analyzer to produce a trace of absorbance as the frequency varies. A ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "modulator",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " is often placed between the sample and the analyzer. The role of the modulator is to manipulate the properties of light or other electromagnetic radiation to exact specific information from a sample.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     0.72,
+     10.74,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "6.Classification and types of major spectroscopic techniques",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 1",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     7.18,
+     3.4,
+     5.42,
+     3.53
+    ],
+    "paras": [
+     [
+      {
+       "t": "b) Emission instrument: Emission ",
+       "sz": 24.0,
+       "b": null
+      },
+      {
+       "t": "instrumentation in spectroscopy refers to the device and systems used to measure the emission spectra of atoms, molecules, or ions.",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Many instruments are developed based on the emission mechanism, such as atomic emission spectroscopy, optical emission spectroscopy, inductively coupled plasma emission spectroscopy, laser-induced breakdown spectroscopy, and fluorescence spectroscopy.",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "图片 4",
+    "type": "PICTURE (13)",
+    "pos": [
+     7.76,
+     1.39,
+     4.26,
+     1.91
+    ]
+   },
+   {
+    "name": "图片 7",
+    "type": "PICTURE (13)",
+    "pos": [
+     1.36,
+     5.06,
+     4.99,
+     2.15
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.59,
+     1.29,
+     4.84,
+     5.49
+    ],
+    "paras": [
+     [
+      {
+       "t": "In optical spectroscopy, the absorption of light by a sample is typically described by Beer-Lambert's law, which states that ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "the absorbance of light ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "is proportional to the concentration of  the absorbing species, the path length of the light through the sample, and the ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "molar absorptivity",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": " of the species at a given wavelength. By measuring the absorbance of light at different wavelengths, one can obtain an absorption spectrum that reveals the characteristic absorption bands or peaks associated with specific molecular or electronic transitions. ",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " ",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     0.72,
+     10.93,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "7. Measurement Principles of Absorption and Emission Spectra",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "Picture 2",
+    "type": "PICTURE (13)",
+    "pos": [
+     6.42,
+     1.28,
+     3.97,
+     2.97
+    ]
+   },
+   {
+    "name": "文本框 1",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     5.56,
+     4.26,
+     6.48,
+     2.83
+    ],
+    "paras": [
+     [
+      {
+       "t": "In emission spectroscopy, ",
+       "sz": 18.0,
+       "b": null
+      },
+      {
+       "t": "the intensity of light ",
+       "sz": 18.0,
+       "b": null
+      },
+      {
+       "t": "emitted is measured. This light, which may occur instantaneously or with a delay, contains information about the energy levels, electronic states, and chemical environment of the emitting species. There are two main types of spectroscopy: ",
+       "sz": 18.0,
+       "b": null
+      },
+      {
+       "t": "fluorescence",
+       "sz": 18.0,
+       "b": null
+      },
+      {
+       "t": " and ",
+       "sz": 18.0,
+       "b": null
+      },
+      {
+       "t": "Phosphorescence",
+       "sz": 18.0,
+       "b": null
+      },
+      {
+       "t": " spectroscopy. These two spectroscopic techniques are common types of emission spectroscopy, distinguished by their respective mechanisms of excited state relaxation and lifetime.",
+       "sz": 18.0,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     1.29,
+     12.47,
+     5.49
+    ],
+    "paras": [
+     [
+      {
+       "t": "1. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "光学光谱 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Optical Spectroscopy ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "　",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "    UV-Vis ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "紫外",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "-",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "可见 ｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "UPS ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "紫外光电子能谱 ｜ 荧光光谱 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Fluorescence",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "2. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "振动光谱 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Vibrational Spectroscopy ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "　",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "    FT-IR ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "傅里叶变换红外 ｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Raman ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "拉曼 ｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "SERS ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "表面增强拉曼",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "3. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "电子光谱 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Electron Spectroscopy ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "　",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "    XPS X",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "射线光电子能谱 ｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "AES ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "俄歇电子能谱 ｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "EELS ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "电子能量损失谱",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "4. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "磁共振光谱 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Magnetic Resonance ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "　",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "    NMR ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "核磁共振 ｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "FMR ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "铁磁共振",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "5. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "质谱 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Mass Spectrometry ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "　",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "    TOF-MS ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "飞行时间质谱 ｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "MALDI-MS ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "基质辅助激光解吸电离质谱",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "6. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "热光谱 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Thermal Analysis ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "　",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "    TGA ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "热重分析",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "7. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "光发射光谱 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Optical Emission ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "　",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "    OES ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "光发射光谱 ｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "ICP-OES ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "电感耦合等离子体光发射光谱",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "8. ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "其它 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "Miscellaneous ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "　",
+       "sz": 20.0,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "    XAS X ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "射线吸收光谱（含 ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "XANES / EXAFS",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "）｜ ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "AAS ",
+       "sz": 20.0,
+       "b": null
+      },
+      {
+       "t": "原子吸收光谱",
+       "sz": 20.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     0.52,
+     0.72,
+     6.15,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "8. Major Spectroscopic Techniques",
+       "sz": 28.0,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ]
+ ],
+ "p2": [
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     1.67,
+     1.23,
+     10.0,
+     2.61
+    ],
+    "paras": [
+     [
+      {
+       "t": "Principles of Spectral Imaging",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "副标题 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     1.67,
+     3.94,
+     10.0,
+     1.81
+    ],
+    "paras": [
+     [
+      {
+       "t": "光谱成像原理",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "直接连接符 26",
+    "type": "LINE (9)",
+    "pos": [
+     -1.79,
+     2.74,
+     4.74,
+     1.91
+    ]
+   },
+   {
+    "name": "椭圆 4",
+    "type": "AUTO_SHAPE (1)",
+    "pos": [
+     -5.16,
+     -2.9,
+     12.23,
+     12.23
+    ],
+    "paras": []
+   },
+   {
+    "name": "椭圆 3",
+    "type": "AUTO_SHAPE (1)",
+    "pos": [
+     -1.96,
+     1.37,
+     4.77,
+     4.77
+    ],
+    "paras": []
+   },
+   {
+    "name": "文本框 5",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     2.93,
+     2.22,
+     4.14,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "光谱成像的主要模式",
+       "sz": 28.0,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 6",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     2.93,
+     4.17,
+     3.57,
+     1.04
+    ],
+    "paras": [
+     [
+      {
+       "t": "光谱分辨率与空间分辨率及其权衡",
+       "sz": 28.0,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 7",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     1.51,
+     6.13,
+     3.68,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "多光谱与高光谱",
+       "sz": 28.0,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "直接连接符 14",
+    "type": "LINE (9)",
+    "pos": [
+     -0.47,
+     1.33,
+     1.87,
+     4.63
+    ]
+   },
+   {
+    "name": "直接连接符 18",
+    "type": "LINE (9)",
+    "pos": [
+     -0.51,
+     1.56,
+     2.01,
+     4.74
+    ]
+   },
+   {
+    "name": "直接连接符 20",
+    "type": "LINE (9)",
+    "pos": [
+     -1.79,
+     2.86,
+     4.74,
+     1.92
+    ]
+   },
+   {
+    "name": "椭圆 22",
+    "type": "AUTO_SHAPE (1)",
+    "pos": [
+     -0.66,
+     2.67,
+     2.17,
+     2.17
+    ],
+    "paras": []
+   },
+   {
+    "name": "直接连接符 24",
+    "type": "LINE (9)",
+    "pos": [
+     6.67,
+     2.51,
+     2.12,
+     0.0
+    ]
+   },
+   {
+    "name": "文本框 25",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     8.79,
+     2.06,
+     4.54,
+     0.71
+    ],
+    "paras": [
+     [
+      {
+       "t": "Three Primary Spectral‑Imaging Acquisition Modes",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 35",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     1.37,
+     0.98,
+     5.3,
+     0.57
+    ],
+    "paras": [
+     [
+      {
+       "t": "单点光谱扩展到光谱成像",
+       "sz": 28.0,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "直接连接符 40",
+    "type": "LINE (9)",
+    "pos": [
+     6.67,
+     1.24,
+     1.75,
+     0.02
+    ]
+   },
+   {
+    "name": "文本框 41",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     8.42,
+     0.91,
+     4.63,
+     0.71
+    ],
+    "paras": [
+     [
+      {
+       "t": "From Single‑Point Spectroscopy to Spectral Imaging",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "直接连接符 43",
+    "type": "LINE (9)",
+    "pos": [
+     6.49,
+     4.74,
+     2.12,
+     0.0
+    ]
+   },
+   {
+    "name": "文本框 44",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     8.56,
+     4.53,
+     4.58,
+     0.71
+    ],
+    "paras": [
+     [
+      {
+       "t": "Trade‑off Between Spatial Resolution and Spectral Resolution",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "直接连接符 47",
+    "type": "LINE (9)",
+    "pos": [
+     4.42,
+     6.42,
+     4.14,
+     0.0
+    ]
+   },
+   {
+    "name": "文本框 49",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     8.62,
+     6.22,
+     3.97,
+     0.4
+    ],
+    "paras": [
+     [
+      {
+       "t": "Multispectral and hyperspectral",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "图片 4",
+    "type": "PICTURE (13)",
+    "pos": [
+     9.33,
+     2.1,
+     4.0,
+     3.66
+    ]
+   },
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": [
+     [
+      {
+       "t": "From Single‑Point Spectroscopy to Spectral Imaging",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     8.58,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "Conventional single‑point spectroscopy only obtains spectral information at one fixed spatial location: it answers ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "“",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "what",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "”",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " material the target is.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "- Traditional 2‑D imaging only records spatial information: it answers ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "“",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "where",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "”",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " the object is located.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "- Spectral imaging combines spectroscopy and imaging, generating a 3‑D spectral data cube I(",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "x,y",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ",",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "λ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "). It answers: where is what.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "- The data cube contains two spatial dimensions (",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "x,y",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ") and one spectral dimension (",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "λ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ").",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 3",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     9.39,
+     5.88,
+     3.51,
+     0.4
+    ],
+    "paras": [
+     [
+      {
+       "t": "FIGURE ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "1",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ".",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "3-D data cube",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " [1]",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "图片 4",
+    "type": "PICTURE (13)",
+    "pos": [
+     8.02,
+     0.14,
+     4.99,
+     6.21
+    ]
+   },
+   {
+    "name": "文本占位符 3",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.59,
+     0.83,
+     7.3,
+     5.85
+    ],
+    "paras": [
+     [
+      {
+       "t": "Whiskbroom Mode (Point‑Scanning",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "，扫帚式",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " / ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "点扫描",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ")",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Optical path: Scanning mirror moves across scene, one spatial point at a time. Each single point acquires its complete full spectrum. Build cube by scanning every pixel point‑by‑point.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "✅ Pros: High spectral quality for each sampled point; good SNR.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "❌ Cons: Two‑axis mechanical scanning; long acquisition time; moving‑part artifacts.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Pushbroom",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Mode (Line‑Scanning",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "，推扫式",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " / ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "线扫描",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ")",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Optical path: Simultaneously captures an entire line of spatial information plus full spectrum for each pixel on that line. Complete 2‑D spatial area is obtained via relative platform motion (aircraft / satellite / translation stage).",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "✅ Pros: Much faster than whiskbroom; widely used in remote sensing.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "❌ Cons: Depends on steady relative movement between sensor and target.",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 2",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     8.02,
+     6.62,
+     5.31,
+     0.71
+    ],
+    "paras": [
+     [
+      {
+       "t": "FIGURE ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "2",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ". ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "(a) ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Point scanning or whiskbroom, ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "\t",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "(b)  Line scanning or pushbroom",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " [1]",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "图片 4",
+    "type": "PICTURE (13)",
+    "pos": [
+     9.47,
+     0.3,
+     2.46,
+     6.21
+    ]
+   },
+   {
+    "name": "文本占位符 3",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.62,
+     0.83,
+     7.3,
+     5.85
+    ],
+    "paras": [
+     [
+      {
+       "t": "Staring Mode (Spectral Scanning",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "，凝视式",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " / ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "光谱扫描",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ")",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Optical path: Keep the whole scene stationary on detector; use tunable optical filters (AOTF, LCTF, FPI, LVF) to sequentially select one wavelength band. Stack series of 2‑D images to reconstruct the full 3‑D data cube.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "✅ Pros: Captures full‑field scene for each wavelength; no spatial mechanical scanning.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "❌ Cons: Wavelength scanning takes time; poor performance for dynamic moving scenes.",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "文本框 2",
+    "type": "TEXT_BOX (17)",
+    "pos": [
+     7.92,
+     6.61,
+     5.31,
+     0.4
+    ],
+    "paras": [
+     [
+      {
+       "t": "FIGURE ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "3",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ". ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "(c)",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Spectral scanning (SC) or staring",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " [1]",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 4",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": [
+     [
+      {
+       "t": "Trade‑off Between Spatial Resolution and Spectral Resolution",
+       "sz": null,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "内容占位符 5",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.11,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "- In conventional spectral‑imaging optical systems, there exists an intrinsic trade‑off between spatial resolution and spectral resolution [1].",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "- Higher spectral resolution requires more, narrower spectral bands. Under limited photon budget and detector constraints, this often sacrifices spatial sampling performance.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "- If you pursue fine spatial details (high spatial resolution), the number of available spectral channels will be limited.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "- Advanced approaches such as snapshot imaging and compressive computational imaging can mitigate this conflict, but cannot completely eliminate the fundamental physical limits from photon availability.",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": [
+     [
+      {
+       "t": "MULTISPECTRAL IMAGING",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": "多光谱成像",
+       "sz": 32.0,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "By capturing and analyzing how objects reflect, absorb, or emit light across different spectral bands, MSI uncovers information about the composition, structure, and properties of a scene or object. ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "[1]",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "通过捕捉和分析物体在不同光谱带中反射、吸收或发射光的方式，多光谱成像（",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "MSI",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）能够揭示场景或物体的组成、结构和特性信息。 ",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": [
+     [
+      {
+       "t": "HYPERSPECTRAL IMAGING",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": "高光谱成像",
+       "sz": 32.0,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "While MSI systems have long provided a balance between spectral information and ease of implementation, the HSI systems have pushed the boundaries in terms of providing deep spectral insight.",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "[1]",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "虽然多光谱成像（",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "MSI",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）系统长期以来一直在光谱信息与实施便捷性之间寻求平衡，但高光谱成像（",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "HSI",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）系统在提供深入的光谱洞察方面则突破了界限。",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": [
+     [
+      {
+       "t": "HYPERSPECTRAL IMAGING",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": "高光谱成像",
+       "sz": 32.0,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "The pros of using Hyperspectral Imaging in different applications such as agriculture, and food quality estimation are as follows [2]: ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(i) It is a non-invasive, non-contact, non-destructive technology that ensures the quality and safety of food goods. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(ii) The experiments use no chemicals therefore environmentally safe. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(iii) The time required to process for quality evaluation and food control/storage is low compared to chemical and traditional approaches. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(iv) It gives an improved understanding of the chemical elements of food products and is generally known as chemical imaging. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(v) It provides appropriate area selection for critical analysis of the image. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(vi) It gains spatial and spectral information together to provide more appropriate and accurate data concerning chemical samples from interested platforms and enhance a chance to data refine and achieve further experiments. ",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": [
+     [
+      {
+       "t": "HYPERSPECTRAL IMAGING",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": "高光谱成像",
+       "sz": 32.0,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "Despite its pros, Hyperspectral Imaging also has some cons [",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "2",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "]. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(i) A hyperspectral imaging system is highly costly compared to other image processing techniques. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(ii) Since the data size of hyperspectral imaging is large, there is a demand for high-speed computers for the processing of data and extensive capacity drives for the storage of data. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(iii) While acquiring the images, the signal could be impacted by ambient surroundings such as scattering, illumination, etc. therefore producing a destitute signal-to-noise ratio. ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "(iv) Detection and identification of different items within the equivalent image using spectral data is mostly difficult except the diverse objects have distinct absorption features. ",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.0,
+     -0.23,
+     13.33,
+     1.45
+    ],
+    "paras": [
+     [
+      {
+       "t": "Multispectral Imaging VS Hyperspectral Imaging",
+       "sz": null,
+       "b": true
+      }
+     ]
+    ]
+   },
+   {
+    "name": "内容占位符 10",
+    "type": "TABLE (19)",
+    "pos": [
+     0.92,
+     0.97,
+     11.54,
+     5.34
+    ],
+    "table": [
+     [
+      [],
+      [
+       {
+        "t": "Multispectral Imaging ",
+        "sz": 24.0,
+        "b": true
+       },
+       {
+        "t": "多光谱成像",
+        "sz": 18.0,
+        "b": true
+       }
+      ],
+      [
+       {
+        "t": "Hyperspectral Imaging",
+        "sz": 24.0,
+        "b": true
+       },
+       {
+        "t": "高光谱成像",
+        "sz": 18.0,
+        "b": true
+       }
+      ]
+     ],
+     [
+      [
+       {
+        "t": "Spectral bands ",
+        "sz": 28.0,
+        "b": null
+       },
+       {
+        "t": "光谱波段",
+        "sz": 18.0,
+        "b": null
+       }
+      ],
+      [
+       {
+        "t": "Discrete",
+        "sz": 18.0,
+        "b": null
+       },
+       {
+        "t": "widely‑spaced bands (typically 3‑25 bands)",
+        "sz": 18.0,
+        "b": null
+       }
+      ],
+      [
+       {
+        "t": "Hundreds of contiguous narrow spectral bands ",
+        "sz": 18.0,
+        "b": null
+       }
+      ]
+     ],
+     [
+      [
+       {
+        "t": "Spectral signature",
+        "sz": 28.0,
+        "b": null
+       },
+       {
+        "t": "光谱特征",
+        "sz": 18.0,
+        "b": null
+       }
+      ],
+      [
+       {
+        "t": "Coarse spectral sampling",
+        "sz": 18.0,
+        "b": null
+       }
+      ],
+      [
+       {
+        "t": "Dense continuous spectral fingerprint per pixel ",
+        "sz": 18.0,
+        "b": null
+       }
+      ]
+     ],
+     [
+      [
+       {
+        "t": "Data volume",
+        "sz": 28.0,
+        "b": null
+       },
+       {
+        "t": "数据量",
+        "sz": 18.0,
+        "b": null
+       }
+      ],
+      [
+       {
+        "t": "Small, easy to process",
+        "sz": 18.0,
+        "b": null
+       }
+      ],
+      [
+       {
+        "t": "Large 3‑D data cube",
+        "sz": 18.0,
+        "b": null
+       },
+       {
+        "t": "heavy computation load",
+        "sz": 18.0,
+        "b": null
+       }
+      ]
+     ],
+     [
+      [
+       {
+        "t": "Typical strength ",
+        "sz": 28.0,
+        "b": null
+       },
+       {
+        "t": "优势",
+        "sz": 18.0,
+        "b": null
+       }
+      ],
+      [
+       {
+        "t": "Higher spatial / temporal resolution; ",
+        "sz": 18.0,
+        "b": null
+       },
+       {
+        "t": "low cost",
+        "sz": 18.0,
+        "b": null
+       }
+      ],
+      [
+       {
+        "t": "Fine material discrimination by continuous spectrum ",
+        "sz": 18.0,
+        "b": null
+       }
+      ]
+     ]
+    ]
+   },
+   {
+    "name": "图片 12",
+    "type": "PICTURE (13)",
+    "pos": [
+     6.67,
+     6.29,
+     6.4,
+     1.09
+    ]
+   },
+   {
+    "name": "图片 14",
+    "type": "PICTURE (13)",
+    "pos": [
+     0.28,
+     6.28,
+     6.4,
+     1.09
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": [
+     [
+      {
+       "t": "论文引用",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "[1] Mukhtar, S., Arbabi, A., & Viegas, J. (2025). Advances in Spectral Imaging: A Review of Techniques and Technologies. IEEE Access, 13, 35848‑35902. https://doi.org/10.1109/ACCESS.2025.3544476",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "[2] Guolan Lu, Baowei Fei, Medical hyperspectral imaging: a review, J. Biomed. Opt. 19 (1) (20 January 2014) 010901, https://doi.org/10.1117/1. JBO",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ]
+ ],
+ "p3": [
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     1.67,
+     0.75,
+     10.0,
+     2.33
+    ],
+    "paras": [
+     [
+      {
+       "t": "第三部分：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Data Processing & Analysis",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   },
+   {
+    "name": "副标题 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     1.67,
+     3.36,
+     10.52,
+     2.92
+    ],
+    "paras": [
+     [
+      {
+       "t": "参考文献",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "Comparison of two atmospheric correction methods for the classification of spaceborne urban hyperspectral data depending on the spatial resolution. International Journal of Remote Sensing, 2017, 39 (5), pp.1593-1614. ⟨10.1080/01431161.2017.1410247⟩. ⟨hal-01888019⟩遥感应用光谱分类或识别大气校正",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Gautam et al. EPJ Techniques and Instrumentation (2015) 2:8 DOI 10.1140/",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "epjti",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "/s40485-015-0018-6拉曼光谱和红外光谱",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "处理",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Initial Analysis of Spectral Smile Calibration of Hyperspectral Imager Suite (HISUI) Using Atmospheric Absorption Bands IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, VOL. 60, 2022激光诱导击穿光谱（LIBS）成像,更为稳健和高效",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.69,
+     11.5,
+     6.06
+    ],
+    "paras": [
+     [
+      {
+       "t": "中文",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "                       English                                             ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "含义",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "辐射定标",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "   Radiometric Calibration",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "将传感器原始",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "DN",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "值转换为辐射亮度",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "/",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "反射率的过程",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "大气校正",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Atmospheric Correction",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "消除大气散射、吸收对地表反射率的影响",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "光谱响应函数",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Spectral Response Function (SRF)",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "传感器对不同波长的响应曲线",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "半高宽",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Full Width at Half Maximum (FWHM)",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "光谱响应峰半高处的宽度，表征光谱分辨率",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "光谱微笑效应",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Spectral Smile",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "推扫式传感器跨轨方向中心波长偏移现象",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "基线校正",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Baseline Correction",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "去除荧光",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "/",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "散射造成的低频背景漂移",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "噪声等效辐亮度",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Noise Equivalent Radiance (NER)",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "表征传感器噪声水平",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "几何校正",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Geometric Correction",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "将图像像素与地理坐标配准",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "流程总览",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "先看这张流程图，三步：",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Step 1 · ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Preprocessing，预处理",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Step 2 · Dimensionality ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Reduction，降维",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Step 3 · Classification & ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Recognition，分类与识别",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "一、预处理",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "定标类",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "这一页有四个高频词",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "：",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "1. Radiometric ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Calibration（辐射定标",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "把仪器记到的数字",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "DN（digital",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "number）换算成真实的辐射亮度或反射率。没有这一步，数据只是一堆数字",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "2. Spectral Response ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Function（SRF，光谱响应函数",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：传感器对每个波长“",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "有多敏感",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "”，",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "是一条随波长变化的曲线",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "3. ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "FWHM（Full",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Width at Half ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Maximum，半高宽",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "峰高一半处的宽度。它越小，光谱分辨率越高",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "4. Spectral ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Smile（光谱微笑效应",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "中间和两边的波长对不齐，曲线像一张微笑的嘴",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " “The path of the light from the lamps is slightly different from the path of light through the full optical system… the smile correction table determined based on the former does not enable sufficient spectral smile correction for actual observation images.”",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " “…absorption bands centered at λ = 765 nm … CO2 … 2010 nm … 2060 nm.”",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "大气校正",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "1. Atmospheric Correction",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "（大气校正）：光从太空到地面会被大气散射和吸收，这一步把干扰减掉，还原地表真实反射率。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "2. MODTRAN",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "：常用的大气辐射传输模型，物理法大气校正靠它算大气参数。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "论文对比两条路线：物理模型法（",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "COCHISE",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）准，但假设地面是平的；经验阴影校正法能识别阴影，但把像素当成",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "“",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "要么全亮、要么全暗",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "”",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "结论词：Spatial",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Resolution（空间分辨率）决定哪种方法更好",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "“…the choice depends on the spatial resolution of the processed data set… with the lower spatial resolution where COCHISE can be 10% more accurate than the empirical method.”",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "拉曼",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": " vs ",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": "红外",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "Fluorescence ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Baseline（荧光基线",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "拉曼信号弱，被荧光背景盖住，要先做",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Baseline ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Correction（基线校正",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Cosmic Ray Spike（宇宙射线尖峰）：CCD ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "上突然冒出的假亮点，要先去掉",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "ALS（Asymmetric",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Least Squares）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "非对称最小二乘法，常用的拟合基线算法",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Mie ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Scattering（米氏散射",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "细胞大小和红外波长差不多，会把光谱形状扭歪",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "EMSC（Extended",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Multiplicative Scatter ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Correction，扩展乘性散射校正",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "红外里最常用的预处理",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "【",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "文献出处】Gautam",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " 2015。拉曼的荧光基线、宇宙射线尖峰、ALS、SG ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "平滑、SNV；FTIR",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " 的 Mie ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "散射、MSC",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "/EMSC，。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " “…the strong intrinsic fluorescence from many biomolecules. The fluorescence background is often many times more intense than the weak Raman signals.”",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " “…mid-infrared spectrum… is hampered by Mie scattering… Extended Multiplicative Scatter Correction (EMSC) can be employed for this purpose.”",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "二、 ",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": "降维：PCA",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "进入第二大步",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Dimensionality ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Reduction（降维",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Hyperspectral ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Cube（高光谱数据立方体",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "两个空间维度",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " + ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "一个光谱维度，一景图有几百个波段",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "为什么降维？因为波段之间高度相关。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "PCA（Principal",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Component ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Analysis，主成分分析",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "把几百个波段“拧成”几个",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "PC（主成分",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Eigenvalue / ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Eigenvector（特征值",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " / ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "特征向量",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：PCA ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "的数学基础，协方差矩阵分解得到",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Score ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Plot（得分图",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "看样本分成几堆；Loading",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Plot（载荷图",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "看哪些波长在起作用",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "【",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "文献出处",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "】 Gautam 2015。PCA ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "原理、协方差矩阵特征分解、Score",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "/Loading ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "plot、碎石图选",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " PC 数。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "“Eigenvectors of the covariance matrix of the data…” ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "以及",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Fig.1 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "说明",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "：“Scatter Plots of score values of different Principal Components (PCs)…” ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "用于看分组与离群点",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": " PCA vs MNF",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "重点对比两个词：",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "PCA 按 ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Variance（方差）大小排",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "MNF（Minimum Noise ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Fraction，最小噪声分离",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：先把噪声“",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "白化",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "”，",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "再做",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "PCA，按",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Signal-to-Noise ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Ratio（SNR，信噪比）排",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "一句话：PCA",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "看方差大不大，MNF",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "看信噪比高不高。高光谱里",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " MNF ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "用得更多",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "【",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "文献出处】Gautam",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " 2015。PCA ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "按方差排序的局限、MNF",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " 按 SNR ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "排序与噪声分离能力",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "PCA ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "最大化方差但不区分信号与噪声；",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "MNF ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "先做噪声白化再分解，使高信噪比成分排在前面。",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "三、",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": "分类",
+       "sz": null,
+       "b": true
+      },
+      {
+       "t": "：",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "重点记一个词",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "：",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "SAM（Spectral Angle ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Mapper，光谱角度匹配",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "把每条光谱看成一条向量，比较两条向量的夹角，夹角越小越像",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "关键：它只看形状，不看亮度",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "阴影像素虽然整体变暗，但光谱形状没变，照样能和光照下的同类对上号。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "这就是",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Sun-Shadow ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Strategy（光照-阴影分步策略",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "先用光照像元分类，再用",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " SAM ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "去认阴影像元",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "【",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "文献出处",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "】 Roussel 2017。光照-阴影分步策略 SS-KM/",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "SS-SVM、用",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " SAM ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "匹配阴影像元、训练集只有光照像元（SGT）的真实场景",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " “…a Spectral Angle Mapper (SAM) classification has been chosen for its ability to focus on the shape of spectra, which remains globally similar for a pair of pixels associated to the same material, even if one is located in a sunlit area and the other in a shadow area.”",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "验证：",
+       "sz": null,
+       "b": true
+      }
+     ],
+     [
+      {
+       "t": "最后一组词是模型验证",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Cross-Validation（交叉验证",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "），",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "常用",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "K-fold（K",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "折交叉验证",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Confusion ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Matrix（混淆矩阵",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）：TP ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "真阳性、TN",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "真阴性、FP",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "假阳性、FN",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "假阴性；由此算出",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Sensitivity（灵敏度",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）、",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Specificity（特异度",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）、Overall ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Accuracy（总精度",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "ROC ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Curve（ROC",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "曲线）和",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "AUC（曲线下面积",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）。",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Overfitting（过拟合",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "）",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "【",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "文献出处】Gautam",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " 2015。",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "交叉验证、混淆矩阵、灵敏度",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "/",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "特异度、",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "ROC-AUC",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "、阴性对照防止伪相关",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "1",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "However, ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "multispectral imagery ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "is limited regarding ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "spectral analysis",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ". Its low spectral resolution does not allow the discrimination among the large variety of urban materials. ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Hyperspectral imagery",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ", which is characterized by a very high spectral resolution and whose spatial resolution tends to improve (",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Briottet",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " et al. 2011), has proved to be a promising tool to overcome this matter.",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "One of the ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "keypoints",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " to achieve these applications is the ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "atmospheric correction phase ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "which aims to retrieve, from at sensor radiance, the reflectance associated to the targeted surface, which is by nature independent of the irradiance conditions on the one hand and of the environment topography on the other hand. Different correction methods exist. ATREM (Goetz et al. 1997) for ‘Atmospheric ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "REMoval",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " pro gram’ and ACORN (Miller 2002) for ‘Atmosphere ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "CORrection",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " Now’ assume a flat homogeneous ground hypothesis with a ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "Lambertian surface",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ".",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "2",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Principal component analysis ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "(PCA) PCA is an unsupervised data transformation procedure of complex data sets. PCA is used for projecting a higher dimensional data matrix “X” onto a low component sub space. It reduces a set of variables into a smaller set of orthogonal, and therefore ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "inde",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " pendent, principal components (PCs) in the direction of maximal variation i.e. it reduces the dimensionality and retains the most significant information for further ana lysis.",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "3 ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "Hyperspectral data ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "can be used to extract various ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "informa",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "tion",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " from discrete absorption and reflection features of a target surface or atmosphere. Thus, HISUI data are expected to be useful in various fields, such as natural resources, agriculture, forestry, environmental monitoring, and Earth science [1]. For such applications, both an accurate spectral calibration and a radiometric calibration are necessary for the reliability of the information extracted from hyperspectral data (see, e.g., [2]–[4]). In particular, for push-broom-type sensors, it is important to evaluate and calibrate the ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "spectral smile",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": ", which is a phenomenon showing a cross-track dependence in a ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "devia",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "tion",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " from the original wavelength assignment caused by optical distortions incident on the detector array",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "name": "标题 1",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     0.4,
+     11.5,
+     1.45
+    ],
+    "paras": []
+   },
+   {
+    "name": "内容占位符 2",
+    "type": "PLACEHOLDER (14)",
+    "pos": [
+     0.92,
+     2.0,
+     11.5,
+     4.76
+    ],
+    "paras": [
+     [
+      {
+       "t": "B. Evaluation of the Spectral Smile by Atmospheric Correction ",
+       "sz": null,
+       "b": null
+      }
+     ],
+     [
+      {
+       "t": "The ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "analytical procedure ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "to evaluate the spectral smile by atmospheric correction was given as follows. In this analysis, we used the modeled radiance incident on HISUI from the target site, which was calculated using ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "MODTRAN 6. MODTRAN ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "calculations were performed using the U.S. Standard 1976 Atmospheric Profile, the desert aerosol model, and a Lambertian desert-barren surface type as representative parameter values. In addition, solar altitude, target latitude and longitude, ground height, and seasonal parameters were provided with values for each target and observation timing. These settings are a simple and efficient method for evaluating spectral smile for large numbers of pixels in a variety of HISUI scenes. Note that fine-tuning of MODTRAN parameters was not conducted for this analysis because the objective of this study was not to obtain accurate surface reflectance, but rather to estimate ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "δλ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": " using ",
+       "sz": null,
+       "b": null
+      },
+      {
+       "t": "atmospheric absorption bands.",
+       "sz": null,
+       "b": null
+      }
+     ]
+    ]
+   }
+  ]
+ ]
+}
