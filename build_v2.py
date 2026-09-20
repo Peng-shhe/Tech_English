@@ -35,7 +35,7 @@ prs = Presentation()
 prs.slide_width = Inches(13.333)
 prs.slide_height = Inches(7.5)
 BLANK = prs.slide_layouts[6]
-TOTAL = 63
+TOTAL = 68
 PAGE = 0
 
 # --------------------------------------------------------------- helpers ----
@@ -238,10 +238,12 @@ text(s, 0.8, 2.0, 11.73, 0.55,
 text(s, 0.8, 2.85, 11.73, 0.5,
      [P("From Fundamental Spectroscopy to Spectral Imaging Applications",
         17, False, CYAN, align=PP_ALIGN.CENTER)])
-text(s, 0.8, 3.72, 11.73, 0.8,
-     [P("Fundamentals of Spectroscopy  •  Principles of Spectral Imaging",
+text(s, 0.8, 3.55, 11.73, 1.15,
+     [P("Key Terms & Reading Materials  •  Fundamentals of Spectroscopy",
         14, False, LIGHT, align=PP_ALIGN.CENTER, after=4),
-      P("Data Processing & Analysis  •  Applications & Future Trends",
+      P("Principles of Spectral Imaging  •  Data Processing & Analysis",
+        14, False, LIGHT, align=PP_ALIGN.CENTER, after=4),
+      P("Applications & Future Trends",
         14, False, LIGHT, align=PP_ALIGN.CENTER)])
 text(s, 0.8, 5.25, 11.73, 0.5,
      [P("Technical English Group Presentation", 18, False, WHITE,
@@ -254,34 +256,144 @@ text(s, 0.8, 5.85, 11.73, 0.4,
 s = slide(); PAGE += 1
 title_bar(s, "Contents", "Presentation Structure · 目录")
 toc = [
-    ("01", "Fundamentals of Spectroscopy", "光谱学基础",
+    ("01", "Key Terms & Reading Materials", "核心词汇与文献阅读",
+     "8 core terms CN → EN · 3 reading excerpts EN → CN"),
+    ("02", "Fundamentals of Spectroscopy", "光谱学基础",
      "Electromagnetic waves · Spectra · Atomic & molecular energy levels"),
-    ("02", "Principles of Spectral Imaging", "光谱成像原理",
+    ("03", "Principles of Spectral Imaging", "光谱成像原理",
      "Data cube · Whiskbroom / Pushbroom / Staring · MSI vs. HSI"),
-    ("03", "Data Processing & Analysis", "光谱数据处理与分析",
+    ("04", "Data Processing & Analysis", "光谱数据处理与分析",
      "Calibration · PCA / MNF · Spectral classification & validation"),
-    ("04", "Applications & Future Trends", "应用案例与未来趋势",
+    ("05", "Applications & Future Trends", "应用案例与未来趋势",
      "Remote sensing · Agriculture · Biomedicine · Miniaturization & AI"),
 ]
 for i, (num, en, cn, sub) in enumerate(toc):
     x = 0.6 + (i % 2) * 6.27
-    y = 1.7 + (i // 2) * 2.5
-    rect(s, x, y, 6.0, 2.2, BG); rect(s, x, y, 0.13, 2.2, TEAL)
-    oval(s, x + 0.35, y + 0.35, 0.78, TEAL, num)
-    text(s, x + 1.35, y + 0.3, 4.5, 0.7, [P(en, 17, True, NAVY, ls=1.0)])
-    text(s, x + 1.35, y + 0.92, 4.5, 0.35, [P(cn, 12.5, True, GOLD)])
-    text(s, x + 1.35, y + 1.3, 4.45, 0.7, [P(sub, 11, False, GRAY, ls=1.1)])
+    y = 1.5 + (i // 2) * 1.78
+    rect(s, x, y, 6.0, 1.62, BG); rect(s, x, y, 0.13, 1.62, TEAL)
+    oval(s, x + 0.3, y + 0.42, 0.78, TEAL, num)
+    text(s, x + 1.3, y + 0.18, 4.55, 0.55, [P(en, 15, True, NAVY, ls=1.0)])
+    text(s, x + 1.3, y + 0.74, 4.55, 0.32, [P(cn, 11.5, True, GOLD)])
+    text(s, x + 1.3, y + 1.08, 4.5, 0.5, [P(sub, 9.5, False, GRAY, ls=1.08)])
+# 6th cell: lecture summary card
+x, y = 6.87, 1.5 + 2 * 1.78
+rect(s, x, y, 6.0, 1.62, NAVY)
+text(s, x + 0.35, y + 0.2, 5.4, 0.5,
+     [P("Spectroscopy and Spectral Imaging", 15, True, WHITE)])
+text(s, x + 0.35, y + 0.74, 5.4, 0.32,
+     [P("光谱与光谱成像 · 第 1 讲", 11.5, True, GOLD)])
+text(s, x + 0.35, y + 1.08, 5.4, 0.5,
+     [P("13 references · 21 literature figures · 68 slides",
+        9.5, False, CYAN)])
 footer(s, None)
 
 # ########################################################## PART 1 #########
-divider(1, "Fundamentals of Spectroscopy", "光谱学基础",
+# 第1讲课程内容：核心专业词汇（中译英）+ 文献阅读材料（英译中）  —— 课程内容.md
+SRC0 = "Lecture 01 · Course Content"
+divider(1, "Key Terms & Reading Materials", "核心词汇与文献阅读",
+        "Core vocabulary CN → EN · 8 key terms\n"
+        "Reading materials EN → CN · 3 literature excerpts\n"
+        "Spectroscopy and Spectral Imaging · 第 1 讲")
+
+# --- 0.1 Core vocabulary CN -> EN -------------------------------------------
+s = content("Key Terms · 核心专业词汇（中译英）",
+            "Part 1 · Key Terms & Reading Materials", SRC0)
+VOCAB = [
+    ("光谱", "Spectrum",
+     "光强或其他辐射参数随波长、频率或波数变化形成的分布"),
+    ("波长", "Wavelength",
+     "光波相邻两个同相位点之间的距离，通常用 nm 或 μm 表示"),
+    ("波数", "Wavenumber",
+     "波长的倒数，红外光谱中通常以 cm⁻¹ 表示"),
+    ("吸光度", "Absorbance",
+     "表征样品对入射光吸收程度的物理量"),
+    ("反射率", "Reflectance",
+     "样品反射光功率与入射光功率之比"),
+    ("光谱分辨率", "Spectral Resolution",
+     "光谱系统分辨两个相邻波长或波数的能力"),
+    ("空间分辨率", "Spatial Resolution",
+     "成像系统区分相邻空间目标的能力"),
+    ("高光谱数据立方体", "Hyperspectral Data Cube",
+     "由两个空间维度和一个光谱维度组成的三维数据结构"),
+]
+for i, (cn_t, en_t, dfn) in enumerate(VOCAB):
+    x = 0.5 + (i % 2) * 6.33
+    y = 1.42 + (i // 2) * 1.35
+    c = [TEAL, NAVY, GOLD, RED][i % 4]
+    rect(s, x, y, 6.0, 1.22, BG); rect(s, x, y, 0.13, 1.22, c)
+    text(s, x + 0.32, y + 0.13, 5.55, 0.45,
+         [P(f"0{i + 1}  {cn_t}  ·  {en_t}", 14, True, NAVY)])
+    text(s, x + 0.32, y + 0.64, 5.55, 0.5, [P(dfn, 9.8, False, GRAY)])
+
+# --- 0.2-0.4 Reading materials EN -> CN --------------------------------------
+READS = [
+    ("Reading ① · Hyperspectral Imaging & Computational Architectures",
+     "Hyperspectral imaging records both spatial and spectral information "
+     "from a scene, allowing materials that appear similar in conventional "
+     "images to be distinguished by their wavelength-dependent responses. A "
+     "broadband hyperspectral sensor can extend this capability across "
+     "visible and infrared wavelengths. Recent computational imaging "
+     "architectures combine optical encoding with reconstruction algorithms "
+     "to improve spatial resolution, spectral coverage and acquisition "
+     "speed within a compact imaging system.",
+     "高光谱成像同时记录场景的空间信息与光谱信息，使在常规图像中看似相同的材料，"
+     "能够凭借其随波长变化的响应而加以区分。宽带高光谱传感器可将这一能力扩展至"
+     "可见与红外波段。最新的计算成像架构将光学编码与重建算法相结合，可在紧凑的"
+     "成像系统内同时提升空间分辨率、光谱覆盖范围与采集速度。",
+     [("wavelength-dependent response", "随波长变化的响应"),
+      ("broadband sensor", "宽带传感器"),
+      ("computational imaging", "计算成像")]),
+    ("Reading ② · Compressive Imaging & Single-Pixel Detection",
+     "Conventional hyperspectral cameras often require a large number of "
+     "measurements to reconstruct a three-dimensional data cube. Compressive "
+     "imaging reduces this requirement by encoding spatial and spectral "
+     "information before detection. A single-pixel detector can then record "
+     "highly compressed measurements, while computational algorithms recover "
+     "the spectral video. Such an approach is attractive when detector "
+     "bandwidth, cost or spectral sensitivity limits the use of conventional "
+     "imaging arrays.",
+     "传统高光谱相机通常需要大量测量才能重建三维数据立方体。压缩成像通过在探测"
+     "之前对空间与光谱信息进行编码，减少了这一需求。单像素探测器随后即可记录高"
+     "度压缩的测量数据，再由计算算法恢复出光谱视频。当探测器带宽、成本或光谱灵"
+     "敏度限制常规成像阵列的应用时，这类方法尤其具有吸引力。",
+     [("compressive imaging", "压缩成像"),
+      ("single-pixel detector", "单像素探测器"),
+      ("data cube", "数据立方体")]),
+    ("Reading ③ · Mid-Infrared High-Speed Chemical Imaging",
+     "Mid-infrared hyperspectral imaging is particularly useful for chemical "
+     "analysis because molecular vibrations produce characteristic absorption "
+     "features in this spectral region. However, traditional scanning methods "
+     "are often too slow for observing dynamic processes. By combining "
+     "broadband illumination, optical frequency conversion and rapid spectral "
+     "selection, high-speed wide-field imaging can provide chemical "
+     "information with both spatial and temporal resolution.",
+     "中红外高光谱成像对化学分析尤为有用，因为分子振动会在该光谱区产生特征吸收。"
+     "然而，传统扫描方法对于观测动态过程往往过于缓慢。通过将宽带照明、光频转换"
+     "与快速光谱选择相结合，高速宽场成像能够提供兼具空间分辨率与时间分辨率的化"
+     "学信息。",
+     [("molecular vibrations", "分子振动"),
+      ("optical frequency conversion", "光频转换"),
+      ("wide-field imaging", "宽场成像")]),
+]
+for rtitle, ren, rcn, rterms in READS:
+    s = content(rtitle, "Part 1 · Key Terms & Reading Materials", SRC0)
+    chip(s, 0.5, 1.45, 6.13, 3.5, "English", ren, hc=NAVY, hs=13.5, bs=10.5)
+    chip(s, 6.85, 1.45, 5.98, 3.5, "中文", rcn, hc=GOLD, hs=13.5, bs=10.5)
+    for i, (en, cn) in enumerate(rterms):
+        x = 0.5 + i * 4.17
+        rect(s, x, 5.2, 4.0, 1.15, BG); rect(s, x, 5.2, 4.0, 0.06, TEAL)
+        text(s, x + 0.2, 5.4, 3.65, 0.85,
+             [P(en, 11.5, True, NAVY), P(cn, 10, False, GRAY, before=2)])
+
+# ########################################################## PART 2 #########
+divider(2, "Fundamentals of Spectroscopy", "光谱学基础",
         "Light as electromagnetic waves · Spectroscopy\n"
         "Atomic & molecular energy levels · Historical development\n"
         "Key parameters · Beer–Lambert law · Eight technique families")
 
 # --- 1.1 Light as electromagnetic waves -----------------------------------
 s = content("1 · Light as Electromagnetic Waves",
-            "Part 1 · Fundamentals of Spectroscopy", SRC1)
+            "Part 2 · Fundamentals of Spectroscopy", SRC1)
 EN = ("Wave can be defined as any disturbance made in the medium that "
       "propagates through space. Most of the waves require some of the "
       "supporting media for propagation. The time dependence of displacement "
@@ -316,7 +428,7 @@ for i, (h, b, c) in enumerate([
          [P(b, 10.5, False, GRAY, align=PP_ALIGN.CENTER, ls=1.12)])
 
 # --- 1.2 Spectroscopy -------------------------------------------------------
-s = content("2 · Spectroscopy", "Part 1 · Fundamentals of Spectroscopy", SRC1)
+s = content("2 · Spectroscopy", "Part 2 · Fundamentals of Spectroscopy", SRC1)
 EN2 = ("Spectroscopy is a term that is used to describe different phenomena, "
        "and we limit our discussion to optical spectroscopy, mainly in the "
        "visible light range. A spectrum is a collection of light intensities "
@@ -349,7 +461,7 @@ for i, (yr, name, desc) in enumerate(chain):
 
 # --- 1.3 Basic principle + FIG.1 -------------------------------------------
 s = content("3 · The Basic Principle of Spectroscopy",
-            "Part 1 · Fundamentals of Spectroscopy", SRC1)
+            "Part 2 · Fundamentals of Spectroscopy", SRC1)
 EN3 = ("The structure of atoms and molecules is directly related to "
        "spectroscopy. The spectrum is a direct measurement of the energy "
        "levels of the detected structure (Fig. 1). Molecules (and atoms) "
@@ -386,7 +498,7 @@ text(s, 8.2, 6.52, 4.4, 0.25,
 
 # --- 1.4 Main parameter -----------------------------------------------------
 s = content("4 · Main Parameters of a Spectrum",
-            "Part 1 · Fundamentals of Spectroscopy", SRC1)
+            "Part 2 · Fundamentals of Spectroscopy", SRC1)
 chip(s, 0.5, 1.45, 6.65, 5.35, "English", [
     P("Some of the important characteristics of a spectrum include:", 12, True, NAVY, after=6),
     P("1.  The spectral resolution determines the closest wavelengths that can be distinguished.",
@@ -417,7 +529,7 @@ for i, (h, b, c) in enumerate([
 
 # --- 1.5 History 17-19 ------------------------------------------------------
 s = content("5 · Historical Developments (17th–19th Century)",
-            "Part 1 · Fundamentals of Spectroscopy", SRC1)
+            "Part 2 · Fundamentals of Spectroscopy", SRC1)
 chip(s, 0.5, 1.45, 12.33, 1.95,
      "Prism spectroscopy  (17–18th century)",
      "The earliest observations of spectroscopic phenomena can be traced back to experiments "
@@ -440,7 +552,7 @@ text(s, 0.82, 3.72, 11.9, 1.35, [
 
 # --- 1.6 History 20-21 ------------------------------------------------------
 s = content("5 · Historical Developments (20th–21st Century)",
-            "Part 1 · Fundamentals of Spectroscopy", SRC1)
+            "Part 2 · Fundamentals of Spectroscopy", SRC1)
 chip(s, 0.5, 1.45, 6.05, 4.1,
      "Quantum mechanics and atomic spectra  (Early 20th century)",
      "The development of quantum mechanics in the early 20th century revolutionized our "
@@ -468,7 +580,7 @@ chip(s, 6.78, 5.75, 6.05, 1.05, "Key Techniques",
 
 # --- 1.7 Instrumentation ----------------------------------------------------
 s = content("6 · Classification and Types of Major Spectroscopic Techniques",
-            "Part 1 · Absorption & Emission Instrumentation", SRC1)
+            "Part 2 · Absorption & Emission Instrumentation", SRC1)
 chip(s, 0.5, 1.45, 6.05, 2.0,
      "a)  Absorption instrumentation",
      "The radiation from a white source is directed by some guiding device onto the sample, from "
@@ -491,7 +603,7 @@ pic_fit(s, os.path.join(MEDIA, "p1_s8_8.png"), 6.78, 3.62, 6.05, 3.18)
 
 # --- 1.7F Literature figure: UV-Vis instrument layout -----------------------
 s = content("Figures from the Literature · Inside a UV-Vis Spectrometer",
-            "Part 1 · Absorption Spectroscopy Instrumentation",
+            "Part 2 · Absorption Spectroscopy Instrumentation",
             "Prasad et al., 2024")
 pic_fit(s, os.path.join(MEDIA, "fig_uvvis_schematic.png"),
         1.1, 1.5, 11.13, 4.45)
@@ -508,7 +620,7 @@ text(s, 1.3, 6.66, 10.7, 0.3,
 
 # --- 1.8 Beer-Lambert & emission --------------------------------------------
 s = content("7 · Measurement Principles of Absorption and Emission Spectra",
-            "Part 1 · Fundamentals of Spectroscopy", SRC1)
+            "Part 2 · Fundamentals of Spectroscopy", SRC1)
 rect(s, 0.5, 1.45, 6.9, 2.95, BG); rect(s, 0.5, 1.45, 0.12, 2.95, NAVY)
 text(s, 0.82, 1.6, 6.5, 2.75, [
     P("Absorption spectra — Beer–Lambert's law", 13.5, True, NAVY),
@@ -540,7 +652,7 @@ text(s, 7.9, 5.72, 4.85, 1.0, [
 
 # --- 1.9 Eight technique families -------------------------------------------
 s = content("8 · Major Spectroscopic Techniques",
-            "Part 1 · Eight Families of Modern Spectroscopic Methods", SRC1)
+            "Part 2 · Eight Families of Modern Spectroscopic Methods", SRC1)
 techs = [
     ("1", "光学光谱  Optical Spectroscopy",
      "UV-Vis 紫外-可见 ｜ UPS 紫外光电子能谱 ｜ 荧光光谱 Fluorescence", NAVY),
@@ -569,7 +681,7 @@ for i, (n, head, body, c) in enumerate(techs):
 
 # --- 1.9F Literature figure: spectral unmixing of tissue --------------------
 s = content("Figures from the Literature · Spectral Unmixing of Tissue",
-            "Part 1 · Spectral Imaging in the Life Sciences",
+            "Part 2 · Spectral Imaging in the Life Sciences",
             "Garini et al., 2006")
 pic_fit(s, os.path.join(MEDIA, "fig_garini_unmixing.png"),
         0.5, 1.5, 7.55, 5.3)
@@ -589,15 +701,15 @@ text(s, 8.55, 1.7, 4.05, 5.0, [
       "into a weighted sum of pure reference spectra.",
       10, True, TEAL, before=8, ls=1.15)])
 
-# ########################################################## PART 2 #########
-divider(2, "Principles of Spectral Imaging", "光谱成像原理",
+# ########################################################## PART 3 #########
+divider(3, "Principles of Spectral Imaging", "光谱成像原理",
         "From single-point spectroscopy to the spectral data cube I(x, y, λ)\n"
         "Whiskbroom · Pushbroom · Staring acquisition modes\n"
         "Spatial–spectral resolution trade-off · Multispectral vs. hyperspectral")
 
 # --- 2.0 Overview -----------------------------------------------------------
 s = content("Overview · Three Topics of Spectral Imaging",
-            "Part 2 · Principles of Spectral Imaging", SRC2)
+            "Part 3 · Principles of Spectral Imaging", SRC2)
 ovw = [
     ("单点光谱扩展到光谱成像", "From Single-Point Spectroscopy to Spectral Imaging", NAVY),
     ("光谱成像的主要模式", "Three Primary Spectral-Imaging Acquisition Modes", TEAL),
@@ -614,7 +726,7 @@ for i, (cn, en, c) in enumerate(ovw):
 
 # --- 2.1 Single point -> data cube + FIGURE 1 ------------------------------
 s = content("From Single-Point Spectroscopy to Spectral Imaging",
-            "Part 2 · Principles of Spectral Imaging", SRC2)
+            "Part 3 · Principles of Spectral Imaging", SRC2)
 bullets = [
     ("Conventional single-point spectroscopy only obtains spectral information at one fixed "
      "spatial location: it answers “what” material the target is."),
@@ -644,7 +756,7 @@ text(s, 8.1, 6.25, 4.53, 0.4,
 
 # --- 2.1F Literature figure: hyperspectral data cube ------------------------
 s = content("Figures from the Literature · Anatomy of a Hyperspectral Cube",
-            "Part 2 · Principles of Spectral Imaging",
+            "Part 3 · Principles of Spectral Imaging",
             "Shaw & Burke, 2003")
 pic_fit(s, os.path.join(MEDIA, "fig_hsi_cube.png"),
         0.5, 1.45, 5.7, 5.4)
@@ -668,7 +780,7 @@ text(s, 6.65, 1.62, 5.95, 5.15, [
 
 # --- 2.2 Whiskbroom & Pushbroom + FIGURE 2 ---------------------------------
 s = content("Acquisition Modes: Whiskbroom & Pushbroom",
-            "Part 2 · Scanning Imagers", SRC2)
+            "Part 3 · Scanning Imagers", SRC2)
 chip(s, 0.5, 1.45, 6.95, 2.55,
      "Whiskbroom Mode  (Point-Scanning，扫帚式 / 点扫描)", [
     P("Optical path: a scanning mirror moves across the scene, one spatial point at a time. "
@@ -695,7 +807,7 @@ text(s, 7.85, 6.22, 4.78, 0.5,
 
 # --- 2.3 Staring + FIGURE 3 -------------------------------------------------
 s = content("Acquisition Mode: Staring",
-            "Part 2 · Spectral Scanning (SC)", SRC2)
+            "Part 3 · Spectral Scanning (SC)", SRC2)
 chip(s, 0.5, 1.45, 7.55, 5.35,
      "Staring Mode  (Spectral Scanning，凝视式 / 光谱扫描)", [
     P("Optical path: keep the whole scene stationary on the detector; use tunable optical "
@@ -716,7 +828,7 @@ text(s, 8.4, 6.22, 4.3, 0.5,
 
 # --- 2.4 Trade-off -----------------------------------------------------------
 s = content("Trade-off Between Spatial Resolution and Spectral Resolution",
-            "Part 2 · Principles of Spectral Imaging", SRC2)
+            "Part 3 · Principles of Spectral Imaging", SRC2)
 trade = [
     ("Intrinsic trade-off",
      "In conventional spectral-imaging optical systems, there exists an intrinsic trade-off "
@@ -741,7 +853,7 @@ for i, (h, b, c) in enumerate(trade):
 
 # --- 2.5 MSI -----------------------------------------------------------------
 s = content("MULTISPECTRAL IMAGING  多光谱成像",
-            "Part 2 · Multispectral Imaging (MSI)", SRC2)
+            "Part 3 · Multispectral Imaging (MSI)", SRC2)
 card(s, 0.8, 1.75, 11.73, 2.5, accent='left', ac=NAVY)
 text(s, 1.15, 1.95, 11.1, 2.2, [
     P("English  [1]", 11, True, GRAY),
@@ -756,7 +868,7 @@ text(s, 1.15, 4.7, 11.1, 1.8, [
 
 # --- 2.5F Literature figure: MSI platforms ----------------------------------
 s = content("Figures from the Literature · Real Multispectral Imaging Platforms",
-            "Part 2 · Multispectral Imaging (MSI)",
+            "Part 3 · Multispectral Imaging (MSI)",
             "Mukhtar et al., 2025 (IEEE Access)")
 pic_fit(s, os.path.join(MEDIA, "fig_msi_platforms.png"),
         1.0, 1.4, 11.33, 3.6)
@@ -785,7 +897,7 @@ for i, (h, b, c) in enumerate([
 
 # --- 2.6 HSI ------------------------------------------------------------------
 s = content("HYPERSPECTRAL IMAGING  高光谱成像",
-            "Part 2 · Hyperspectral Imaging (HSI)", SRC2)
+            "Part 3 · Hyperspectral Imaging (HSI)", SRC2)
 card(s, 0.8, 1.75, 11.73, 2.5, accent='left', ac=NAVY)
 text(s, 1.15, 1.95, 11.1, 2.2, [
     P("English  [1]", 11, True, GRAY),
@@ -800,7 +912,7 @@ text(s, 1.15, 4.7, 11.1, 1.8, [
 
 # --- 2.7 HSI pros -------------------------------------------------------------
 s = content("HSI · Advantages in Agriculture & Food Quality Estimation",
-            "Part 2 · Hyperspectral Imaging (HSI)", "[2] Lu & Fei, 2014")
+            "Part 3 · Hyperspectral Imaging (HSI)", "[2] Lu & Fei, 2014")
 text(s, 0.5, 1.4, 12.3, 0.5,
      [P("The pros of using Hyperspectral Imaging in different applications such as agriculture, "
         "and food quality estimation are as follows [2]:", 13, True, NAVY)])
@@ -826,7 +938,7 @@ for i, (n, b) in enumerate(pros):
 
 # --- 2.8 HSI cons -------------------------------------------------------------
 s = content("HSI · Limitations",
-            "Part 2 · Hyperspectral Imaging (HSI)", "[2] Lu & Fei, 2014")
+            "Part 3 · Hyperspectral Imaging (HSI)", "[2] Lu & Fei, 2014")
 text(s, 0.5, 1.45, 12.3, 0.4,
      [P("Despite its pros, Hyperspectral Imaging also has some cons [2].", 14, True, NAVY)])
 cons = [
@@ -853,7 +965,7 @@ for i, (h, b, c) in enumerate(cons):
 
 # --- 2.9 MSI vs HSI bilingual table + spectra -------------------------------
 s = content("Multispectral Imaging VS Hyperspectral Imaging",
-            "Part 2 · Multispectral vs. Hyperspectral", SRC2)
+            "Part 3 · Multispectral vs. Hyperspectral", SRC2)
 rows_n = 5
 gf = s.shapes.add_table(rows_n, 3, Inches(0.5), Inches(1.4),
                         Inches(12.33), Inches(3.65))
@@ -902,15 +1014,15 @@ rect(s, 0.5, 5.25, 12.33, 1.55, WHITE, line=BORDER)
 pic_fit(s, os.path.join(MEDIA, "p2_s11_13.png"), 0.7, 5.33, 11.93, 1.4,
         border=False)
 
-# ########################################################## PART 3 #########
-divider(3, "Data Processing & Analysis", "光谱数据处理与分析",
+# ########################################################## PART 4 #########
+divider(4, "Data Processing & Analysis", "光谱数据处理与分析",
         "Preprocessing: radiometric & atmospheric correction\n"
         "Dimensionality reduction: PCA vs. MNF\n"
         "Spectral classification (SAM) · Statistical validation · Paper excerpts")
 
 # --- 3.1 terminology table --------------------------------------------------
 s = content("Basic Terminology  基本术语",
-            "Part 3 · Data Processing & Analysis", SRC3)
+            "Part 4 · Data Processing & Analysis", SRC3)
 terms = [
     ("辐射定标", "Radiometric Calibration", "将传感器原始 DN 值转换为辐射亮度 / 反射率的过程"),
     ("大气校正", "Atmospheric Correction", "消除大气散射、吸收对地表反射率的影响"),
@@ -952,7 +1064,7 @@ for ri, row in enumerate(allrows):
 
 # --- 3.2 pipeline -----------------------------------------------------------
 s = content("Processing Pipeline  流程总览",
-            "Part 3 · Data Processing & Analysis", SRC3)
+            "Part 4 · Data Processing & Analysis", SRC3)
 text(s, 0.5, 1.5, 12.3, 0.4,
      [P("先看这张流程图，三步：", 15, True, NAVY)])
 steps3 = [
@@ -985,7 +1097,7 @@ text(s, 0.8, 6.27, 11.8, 0.45,
 
 # --- 3.3 calibration --------------------------------------------------------
 s = content("Preprocessing (I) · Calibration  预处理 · 定标类",
-            "Part 3 · Step 1 — Preprocessing",
+            "Part 4 · Step 1 — Preprocessing",
             "Yamamoto et al., 2022")
 text(s, 0.5, 1.4, 12.3, 0.35,
      [P("这一页有四个高频词：", 13, True, NAVY)])
@@ -1015,7 +1127,7 @@ quote_card(s, 0.5, 5.2, 12.33, 1.6, [
 
 # --- 3.4 atmospheric correction --------------------------------------------
 s = content("Preprocessing (II) · Atmospheric Correction  大气校正",
-            "Part 3 · Step 1 — Preprocessing", "Roussel et al., 2017")
+            "Part 4 · Step 1 — Preprocessing", "Roussel et al., 2017")
 atms = [
     ("1  Atmospheric Correction（大气校正）",
      "光从太空到地面会被大气散射和吸收，这一步把干扰减掉，还原地表真实反射率。", NAVY),
@@ -1041,7 +1153,7 @@ quote_card(s, 0.5, 5.85, 12.33, 0.95, [
 
 # --- 3.4F Literature figures: spectral smile + atmosphere -------------------
 s = content("Figures from the Literature · Spectral Smile & Atmospheric Paths",
-            "Part 3 · Calibration & Atmospheric Correction",
+            "Part 4 · Calibration & Atmospheric Correction",
             "Yamamoto et al., 2022 · Shaw & Burke, 2003")
 pic_fit(s, os.path.join(MEDIA, "fig_smile_curves.png"),
         0.45, 1.45, 7.55, 4.55)
@@ -1058,7 +1170,7 @@ fcap(s, 8.2, 6.02, 4.68,
 
 # --- 3.5 Raman vs FTIR -------------------------------------------------------
 s = content("Preprocessing (III) · Raman vs. FTIR  拉曼 vs 红外",
-            "Part 3 · Step 1 — Scatter & Baseline Correction",
+            "Part 4 · Step 1 — Scatter & Baseline Correction",
             "Gautam et al., 2015")
 rect(s, 0.5, 1.45, 12.33, 3.05, BG); rect(s, 0.5, 1.45, 0.12, 3.05, NAVY)
 raman = [
@@ -1089,7 +1201,7 @@ quote_card(s, 0.5, 4.7, 12.33, 2.1, [
 
 # --- 3.6 PCA ------------------------------------------------------------------
 s = content("Dimensionality Reduction · PCA  降维：主成分分析",
-            "Part 3 · Step 2 — Dimensionality Reduction", "Gautam et al., 2015")
+            "Part 4 · Step 2 — Dimensionality Reduction", "Gautam et al., 2015")
 pca_items = [
     ("Hyperspectral Cube（高光谱数据立方体）",
      "两个空间维度 + 一个光谱维度，一景图有几百个波段。"),
@@ -1123,7 +1235,7 @@ quote_card(s, 0.5, 5.5, 12.33, 1.3, [
 
 # --- 3.7 PCA vs MNF -----------------------------------------------------------
 s = content("PCA vs. MNF  主成分分析 vs. 最小噪声分离",
-            "Part 3 · Step 2 — Dimensionality Reduction", "Gautam et al., 2015")
+            "Part 4 · Step 2 — Dimensionality Reduction", "Gautam et al., 2015")
 text(s, 0.5, 1.45, 12.3, 0.35, [P("重点对比两个词：", 13, True, NAVY)])
 card(s, 0.5, 1.9, 6.05, 2.75, accent='top', ac=NAVY)
 text(s, 0.75, 2.08, 5.6, 2.5, [
@@ -1149,7 +1261,7 @@ text(s, 0.5, 6.05, 12.3, 0.7,
 
 # --- 3.7F Literature figures: preprocessed spectra + PCA scores -------------
 s = content("Figures from the Literature · Preprocessed Spectra & PCA Scores",
-            "Part 3 · Preprocessing & Dimensionality Reduction",
+            "Part 4 · Preprocessing & Dimensionality Reduction",
             "Gautam et al., 2015")
 pic_fit(s, os.path.join(MEDIA, "fig_raman_preproc.png"),
         0.5, 1.45, 5.7, 4.95)
@@ -1172,7 +1284,7 @@ text(s, 6.6, 6.49, 6.1, 0.35,
 
 # --- 3.8 SAM ------------------------------------------------------------------
 s = content("Classification · Spectral Angle Mapper  分类：光谱角度匹配",
-            "Part 3 · Step 3 — Classification & Recognition",
+            "Part 4 · Step 3 — Classification & Recognition",
             "Roussel et al., 2017")
 sams = [
     ("SAM（Spectral Angle Mapper，光谱角度匹配）",
@@ -1199,7 +1311,7 @@ quote_card(s, 0.5, 5.7, 12.33, 1.1, [
 
 # --- 3.9 Validation -----------------------------------------------------------
 s = content("Validation of Spectral Models  模型验证",
-            "Part 3 · Step 3 — Validation", "Gautam et al., 2015")
+            "Part 4 · Step 3 — Validation", "Gautam et al., 2015")
 vals3 = [
     ("Cross-Validation（交叉验证）",
      "常用 K-fold（K 折交叉验证）轮换训练 / 验证子集，检验模型的泛化能力。", NAVY),
@@ -1223,7 +1335,7 @@ text(s, 0.5, 6.55, 12.3, 0.35,
 
 # --- 3.9F Literature figures: classification maps + ROC ---------------------
 s = content("Figures from the Literature · Classification Maps & ROC Validation",
-            "Part 3 · Classification & Validation",
+            "Part 4 · Classification & Validation",
             "Roussel et al., 2017 · Gautam et al., 2015")
 pic_fit(s, os.path.join(MEDIA, "fig_roussel_classif.png"),
         0.5, 1.4, 4.4, 5.05)
@@ -1256,7 +1368,7 @@ text(s, 5.42, 5.18, 7.25, 1.65, [
 
 # --- 3.10 Excerpt 1 -----------------------------------------------------------
 s = content("Paper Excerpt 1 · MSI Limitations & Atmospheric Correction",
-            "Part 3 · Original Text — Roussel et al., 2017",
+            "Part 4 · Original Text — Roussel et al., 2017",
             "Roussel et al., 2017, Int. J. Remote Sensing")
 quote_card(s, 0.5, 1.55, 12.33, 1.9, [
     "However, multispectral imagery is limited regarding spectral analysis. Its low spectral "
@@ -1284,7 +1396,7 @@ for i, (t, c) in enumerate([
 
 # --- 3.11 Excerpt 2 PCA --------------------------------------------------------
 s = content("Paper Excerpt 2 · Principal Component Analysis (PCA)",
-            "Part 3 · Original Text — Gautam et al., 2015",
+            "Part 4 · Original Text — Gautam et al., 2015",
             "Gautam et al., EPJ Techniques and Instrumentation, 2015")
 quote_card(s, 0.5, 1.6, 12.33, 2.3, [
     "Principal component analysis (PCA) is an unsupervised data transformation procedure of "
@@ -1308,7 +1420,7 @@ for i, (h, b, c) in enumerate(core):
 
 # --- 3.12 Excerpt 3 HISUI intro ------------------------------------------------
 s = content("Paper Excerpt 3 · HISUI: Applications & Calibration Need",
-            "Part 3 · Original Text — Yamamoto et al., 2022",
+            "Part 4 · Original Text — Yamamoto et al., 2022",
             "Yamamoto et al., IEEE TGRS, 60, 2022")
 quote_card(s, 0.5, 1.55, 12.33, 2.75, [
     "Hyperspectral data can be used to extract various information from discrete absorption and "
@@ -1336,7 +1448,7 @@ text(s, 0.82, 5.7, 11.9, 1.0, [
 
 # --- 3.13 Excerpt 4 HISUI method -----------------------------------------------
 s = content("Paper Excerpt 4 · Evaluating Spectral Smile by Atmospheric Correction",
-            "Part 3 · Original Text — Yamamoto et al., 2022",
+            "Part 4 · Original Text — Yamamoto et al., 2022",
             "Yamamoto et al., IEEE TGRS, 60, 2022")
 text(s, 0.5, 1.4, 12.3, 0.35,
      [P("B. Evaluation of the Spectral Smile by Atmospheric Correction",
@@ -1369,8 +1481,8 @@ for i, (h, b) in enumerate(params):
     text(s, x + 0.15, y + 0.08, 3.7, 0.3, [P(h, 11, True, NAVY)])
     text(s, x + 0.15, y + 0.4, 3.7, 0.35, [P(b, 9.8, False, GRAY)])
 
-# ########################################################## PART 4 #########
-divider(4, "Applications & Future Trends", "应用案例与未来趋势",
+# ########################################################## PART 5 #########
+divider(5, "Applications & Future Trends", "应用案例与未来趋势",
         "Remote Sensing · Environmental Monitoring · Precision Agriculture\n"
         "Biomedical Imaging · Industrial Sorting\n"
         "Miniaturization · Real-time AI · Future trends")
@@ -1379,7 +1491,7 @@ SRC4 = "Shaw & Burke 2003 · Tolentino et al. 2025 · Raja et al. 2025\n" \
 
 # --- 4.1 Remote Sensing ------------------------------------------------------
 s = content("Application 1 · Remote Sensing",
-            "Part 4 · Applications & Future Trends", "Shaw & Burke, 2003")
+            "Part 5 · Applications & Future Trends", "Shaw & Burke, 2003")
 card(s, 0.5, 1.45, 7.2, 2.4, accent='left', ac=NAVY)
 text(s, 0.82, 1.6, 6.75, 2.1, [
     P("Background & Motivation", 14, True, NAVY),
@@ -1419,7 +1531,7 @@ text(s, 8.2, 6.4, 4.4, 0.3, [P("Shaw & Burke, 2003, pp.1, 9, 13–14, 19–20",
 
 # --- 4.2 Environmental Monitoring (Uranium mine) ---------------------------
 s = content("Application 2 · Environmental Monitoring",
-            "Part 4 · Applications & Future Trends",
+            "Part 5 · Applications & Future Trends",
             "Tolentino et al., 2025")
 card(s, 0.5, 1.45, 6.05, 2.0, accent='left', ac=NAVY)
 text(s, 0.82, 1.6, 5.65, 1.75, [
@@ -1456,7 +1568,7 @@ quote_card(s, 0.5, 5.35, 12.33, 1.45, [
 
 # --- 4.2F Literature figures: UAS platform + reactivity map -----------------
 s = content("Figures from the Literature · Drone HSI at the Uranium Mine Site",
-            "Part 4 · Environmental Monitoring",
+            "Part 5 · Environmental Monitoring",
             "Tolentino et al., 2025")
 pic_fit(s, os.path.join(MEDIA, "fig_uas_drone.png"),
         0.45, 1.5, 6.1, 4.45)
@@ -1474,7 +1586,7 @@ fcap(s, 6.75, 5.98, 6.1,
 
 # --- 4.3 Precision Agriculture (Rh-B) ---------------------------------------
 s = content("Application 3 · Precision Agriculture",
-            "Part 4 · Applications & Future Trends", "Raja et al., 2025")
+            "Part 5 · Applications & Future Trends", "Raja et al., 2025")
 card(s, 0.5, 1.45, 12.33, 1.7, accent='left', ac=NAVY)
 text(s, 0.82, 1.6, 11.9, 1.5, [
     P("Challenge: Crop–Weed Differentiation in High-Density Fields", 14, True, NAVY),
@@ -1506,7 +1618,7 @@ quote_card(s, 0.5, 6.1, 12.33, 0.8, [
 
 # --- 4.3F Literature figures: Rh-B imaging rig + fluorescence image --------
 s = content("Figures from the Literature · Rh-B Fluorescence Imaging in the Field",
-            "Part 4 · Precision Agriculture",
+            "Part 5 · Precision Agriculture",
             "Raja et al., 2025")
 pic_fit(s, os.path.join(MEDIA, "fig_rhb_setup.png"),
         0.5, 1.5, 7.4, 4.55)
@@ -1523,7 +1635,7 @@ fcap(s, 8.1, 6.08, 4.73,
 
 # --- 4.4 Biomedical Imaging (I) ---------------------------------------------
 s = content("Application 4 · Biomedical Imaging",
-            "Part 4 · Applications & Future Trends", "Tran & Fei, 2023")
+            "Part 5 · Applications & Future Trends", "Tran & Fei, 2023")
 card(s, 0.5, 1.45, 12.33, 1.55, accent='left', ac=NAVY)
 text(s, 0.82, 1.58, 11.85, 1.35, [
     P("Why Spectral Imaging in Biomedicine?", 14, True, NAVY),
@@ -1556,7 +1668,7 @@ text(s, 0.5, 6.95, 12.3, 0.25, [P("Tran & Fei, 2023, pp.2, 28–34", 9, True, GR
 
 # --- 4.5 Biomedical Imaging (II) --------------------------------------------
 s = content("Application 4 · Biomedical Imaging (cont.)",
-            "Part 4 · Applications & Future Trends",
+            "Part 5 · Applications & Future Trends",
             "Tran & Fei, 2023 · Mukhtar et al., 2025")
 apps2 = [
     ("Surgical Guidance", NAVY,
@@ -1589,7 +1701,7 @@ quote_card(s, 0.5, 5.95, 12.33, 1.05, [
 
 # --- 4.5F Literature figures: retinal saturation + cancer heat maps ---------
 s = content("Figures from the Literature · Oxygenation Maps & Cancer Heat Maps",
-            "Part 4 · Biomedical Imaging",
+            "Part 5 · Biomedical Imaging",
             "Lu & Fei, 2014 · Tran & Fei, 2023")
 pic_fit(s, os.path.join(MEDIA, "fig_retina_sat.png"),
         0.5, 1.45, 5.5, 5.0)
@@ -1611,7 +1723,7 @@ text(s, 6.38, 6.3, 6.3, 0.52,
 
 # --- 4.5F2 Literature figure: NIR image-guided surgery ----------------------
 s = content("Figures from the Literature · NIR Spectral Imaging in the OR",
-            "Part 4 · Biomedical Imaging · Image-Guided Surgery",
+            "Part 5 · Biomedical Imaging · Image-Guided Surgery",
             "Mukhtar et al., 2025 (Laser & Photonics Reviews)")
 pic_fit(s, os.path.join(MEDIA, "fig_biomed_surgery.png"),
         0.9, 1.45, 11.53, 4.15)
@@ -1629,7 +1741,7 @@ text(s, 1.15, 6.38, 11.0, 0.5,
 
 # --- 4.6 Industrial Sorting --------------------------------------------------
 s = content("Application 5 · Industrial Sorting",
-            "Part 4 · Applications & Future Trends", "Romaniello et al., 2024")
+            "Part 5 · Applications & Future Trends", "Romaniello et al., 2024")
 card(s, 0.5, 1.45, 6.05, 1.85, accent='left', ac=NAVY)
 text(s, 0.82, 1.6, 5.65, 1.6, [
     P("Problem: Separating Gluten Contaminants from Legumes", 12.5, True, NAVY),
@@ -1675,7 +1787,7 @@ for i, (num, label, sub, c) in enumerate([
 
 # --- 4.6F Literature figures: lab HSI + industrial sorter -------------------
 s = content("Figures from the Literature · From Lab HSI to the Optical Sorter",
-            "Part 4 · Industrial Sorting",
+            "Part 5 · Industrial Sorting",
             "Romaniello et al., 2024")
 pic_fit(s, os.path.join(MEDIA, "fig_lab_hsi.png"),
         0.5, 1.5, 6.0, 4.6)
@@ -1694,7 +1806,7 @@ fcap(s, 6.75, 6.12, 6.08,
 
 # --- 4.7 Miniaturization (4 paradigms) --------------------------------------
 s = content("Future Trend 1 · Miniaturization",
-            "Part 4 · Future Trends", "Mukhtar et al., 2025")
+            "Part 5 · Future Trends", "Mukhtar et al., 2025")
 para = [
     ("DIY", NAVY,
      "COTS camera + off-the-shelf optics + 3D printing",
@@ -1730,7 +1842,7 @@ text(s, 0.8, 6.62, 11.8, 0.35,
 
 # --- 4.7F Literature figures: four paradigms + size timeline ----------------
 s = content("Figures from the Literature · Spectrometer Paradigms & 50 Years of Shrinking",
-            "Part 4 · Future Trend · Miniaturization",
+            "Part 5 · Future Trend · Miniaturization",
             "Mukhtar et al., 2025 · Tran & Fei, 2023")
 pic_fit(s, os.path.join(MEDIA, "fig_4paradigms.png"),
         0.45, 1.45, 7.5, 5.35)
@@ -1752,7 +1864,7 @@ text(s, 8.38, 5.83, 4.3, 1.0, [
 
 # --- 4.8 Real-time Processing & AI ------------------------------------------
 s = content("Future Trend 2 · Real-time Processing & AI",
-            "Part 4 · Future Trends", "Mukhtar et al., 2025")
+            "Part 5 · Future Trends", "Mukhtar et al., 2025")
 rt = [
     ("Industrial Sorting", "NIR cameras at 15,000 Hz · free-fall detection",
      "Romaniello et al.", NAVY),
@@ -1791,7 +1903,7 @@ for i, (h, b) in enumerate(ai_items):
 
 # --- 4.9 Other Future Trends ------------------------------------------------
 s = content("Future Trend 3 · Other Key Directions",
-            "Part 4 · Future Trends",
+            "Part 5 · Future Trends",
             "Mukhtar et al., 2025 · Tran & Fei, 2023")
 trends = [
     ("Tunable Metasurfaces",
@@ -1825,7 +1937,7 @@ text(s, 0.5, 6.75, 12.3, 0.25,
 
 # --- 4.10 Summary ------------------------------------------------------------
 s = content("Summary · Key Takeaways",
-            "Part 4 · Applications & Future Trends", "All 6 papers · 2003–2025")
+            "Part 5 · Applications & Future Trends", "All 6 papers · 2003–2025")
 card(s, 0.5, 1.45, 6.05, 5.35, accent='left', ac=NAVY)
 text(s, 0.82, 1.6, 5.6, 0.4, [P("Applications & Key Results", 14, True, NAVY)])
 apps_sum = [
@@ -1908,7 +2020,7 @@ refs_p4 = [
              "Photonics Reviews, 2025, 19: e01042."),
 ]
 s = content("References",
-            "Bibliography · 13 sources across four parts", None)
+            "Bibliography · 13 sources across five parts", None)
 
 def _ref_item(s, x, w, yy, num, body, num_color, body_sz=9.3, h=0.72):
     text(s, x, yy, 0.42, 0.3, [P(num, 10, True, num_color)])
@@ -1917,17 +2029,17 @@ def _ref_item(s, x, w, yy, num, body, num_color, body_sz=9.3, h=0.72):
 
 # ---- left column: Parts 1–3 (7 refs) ----
 text(s, 0.5, 1.3, 6.1, 0.3,
-     [P("Part 1 · Fundamentals of Spectroscopy", 11.5, True, NAVY)])
+     [P("Part 2 · Fundamentals of Spectroscopy", 11.5, True, NAVY)])
 yy = 1.6
 for num, body in refs_p1_3[:2]:
     _ref_item(s, 0.55, 5.85, yy, num, body, TEAL); yy += 0.62
 text(s, 0.5, yy + 0.04, 6.1, 0.3,
-     [P("Part 2 · Principles of Spectral Imaging", 11.5, True, NAVY)])
+     [P("Part 3 · Principles of Spectral Imaging", 11.5, True, NAVY)])
 yy += 0.34
 for num, body in refs_p1_3[2:4]:
     _ref_item(s, 0.55, 5.85, yy, num, body, TEAL); yy += 0.62
 text(s, 0.5, yy + 0.04, 6.1, 0.3,
-     [P("Part 3 · Data Processing & Analysis", 11.5, True, NAVY)])
+     [P("Part 4 · Data Processing & Analysis", 11.5, True, NAVY)])
 yy += 0.34
 for num, body in refs_p1_3[4:7]:
     _ref_item(s, 0.55, 5.85, yy, num, body, TEAL, body_sz=9.0, h=0.78)
@@ -1935,7 +2047,7 @@ for num, body in refs_p1_3[4:7]:
 
 # ---- right column: Part 4 (6 refs) ----
 text(s, 7.0, 1.3, 5.85, 0.3,
-     [P("Part 4 · Applications & Future Trends", 11.5, True, NAVY)])
+     [P("Part 5 · Applications & Future Trends", 11.5, True, NAVY)])
 yy = 1.6
 for num, body in refs_p4:
     rect(s, 7.0, yy - 0.03, 5.83, 0.78, BG)
@@ -1946,8 +2058,8 @@ for num, body in refs_p4:
     yy += 0.82
 rect(s, 0.5, 6.62, 12.33, 0.4, NAVY)
 text(s, 0.8, 6.67, 11.8, 0.3,
-     [P("Total: 13 references  ·  Part 1 (2) + Part 2 (2) + Part 3 (3) "
-        "+ Part 4 (6)",
+     [P("Total: 13 references  ·  Part 2 (2) + Part 3 (2) + Part 4 (3) "
+        "+ Part 5 (6)",
         11.5, True, WHITE, align=PP_ALIGN.CENTER)],
      anchor=MSO_ANCHOR.MIDDLE)
 
